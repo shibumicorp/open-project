@@ -31,7 +31,7 @@ http_interactions:
       Content-Length:
       - '577'
       Content-Security-Policy:
-      - default-src 'none';base-uri 'none';manifest-src 'self';frame-ancestors 'none'
+      - default-src 'none';base-uri 'none';manifest-src 'self';frame-ancestors 'localhost*'
       Content-Type:
       - application/json; charset=utf-8
       Date:

@@ -9,7 +9,7 @@ Rails.application.config.after_initialize do
     # Let Rails ActionDispatch::SSL middleware handle the Strict-Transport-Security header
     config.hsts = SecureHeaders::OPT_OUT
 
-    config.x_frame_options = "SAMEORIGIN"
+    config.x_frame_options = "ALLOW-FROM http://localhost:8081/a"
     config.x_content_type_options = "nosniff"
     config.x_xss_protection = "1; mode=block"
     config.x_permitted_cross_domain_policies = "none"
@@ -74,12 +74,12 @@ Rails.application.config.after_initialize do
       # Form targets can only be self
       form_action: default_src,
       # Allow iframe from vimeo (welcome video)
-      frame_src: frame_src + %w('self'),
-      frame_ancestors: %w('self'),
+      frame_src: frame_src + %w('self' http://localhost:8081/ https://jsfiddle.net/ThinkingStiff/9ZrMZ/ ),
+  #    frame_ancestors: %w('self' http://localhost:8081/ https://jsfiddle.net/*),
       # Allow images from anywhere including data urls and blobs (used in resizing)
       img_src: %w(* data: blob:),
       # Allow scripts from self
-      script_src: script_src + %w('strict-dynamic'),
+      script_src: script_src + %w('self' http://localhost:8081/),
       # Allow unsafe-inline styles
       style_src: assets_src + %w('unsafe-inline' 'self'),
       # Allow object-src from Release API

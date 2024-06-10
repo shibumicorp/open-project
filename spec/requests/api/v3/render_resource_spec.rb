@@ -73,7 +73,7 @@ RSpec.describe "API v3 Render resource" do
                   <p class="op-uc-p">
                     Hello World! This <em>is</em> markdown with a
                     <a href="http://community.openproject.org"
-                       target="_top"
+                       target="_self"
                        rel="noopener noreferrer"
                        class="op-uc-link">link</a>
                     and ümläutß.</p>
@@ -91,7 +91,7 @@ RSpec.describe "API v3 Render resource" do
                 <p class="op-uc-p">
                   Hello World! Have a look at
                   <a class="issue work_package preview-trigger op-uc-link"
-                     target="_top"
+                     target="_self"
                      href="#{href}">##{id}</a>
                 </p>
               HTML

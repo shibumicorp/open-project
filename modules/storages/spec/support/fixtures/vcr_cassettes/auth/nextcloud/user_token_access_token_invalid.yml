@@ -23,7 +23,7 @@ http_interactions:
       Cache-Control:
       - no-cache, no-store, must-revalidate
       Content-Security-Policy:
-      - default-src 'none';base-uri 'none';manifest-src 'self';frame-ancestors 'none'
+      - default-src 'none';base-uri 'none';manifest-src 'self';frame-ancestors 'localhost*'
       Content-Type:
       - application/xml; charset=utf-8
       Date:
@@ -106,7 +106,7 @@ http_interactions:
       Content-Encoding:
       - gzip
       Content-Security-Policy:
-      - default-src 'none';base-uri 'none';manifest-src 'self';frame-ancestors 'none'
+      - default-src 'none';base-uri 'none';manifest-src 'self';frame-ancestors 'localhost*'
       Content-Type:
       - application/json; charset=utf-8
       Date:
@@ -180,7 +180,7 @@ http_interactions:
       Content-Encoding:
       - gzip
       Content-Security-Policy:
-      - default-src 'none';base-uri 'none';manifest-src 'self';frame-ancestors 'none'
+      - default-src 'none';base-uri 'none';manifest-src 'self';frame-ancestors 'localhost*'
       Content-Type:
       - application/json; charset=utf-8
       Date:
