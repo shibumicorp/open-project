@@ -1,4 +1,4 @@
-<%= turbo_frame_tag "activity_menu", target: "_top" do %>
+<%= turbo_frame_tag "activity_menu", target: "_self" do %>
   <%= form_tag(polymorphic_url([@project, :activities]), method: :get) do %>
     <fieldset class="form--fieldset sidebar">
       <legend class="form--fieldset-legend"><%= t(:description_filter) %></legend>

@@ -126,7 +126,7 @@ pt-BR:
       host: Adicione o endereço do host de seu armazenamento incluindo o  https://. Ele não deve ter mais de 255 caracteres.
       managed_project_folders_application_password_caption: 'Habilitar as pastas gerenciadas automaticamente copiando este valor de: %{provider_type_link}.'
       name: Dê um nome a seu armazenamento para que os usuários possam diferenciar vários armazenamentos.
-      new_storage: Para mais informações, leia a nossa documentação sobre <a target='_blank' href='%{provider_link}'>configuração de uma integração de armazenamento de arquivos de %{provider_name}</a>.
+      new_storage: Para mais informações, leia a nossa documentação sobre <a target='_self' href='%{provider_link}'>configuração de uma integração de armazenamento de arquivos de %{provider_name}</a>.
       nextcloud:
         application_link_text: aplicativo “Integration OpenProject”
         integration: Administração de Nextcloud / OpenProject

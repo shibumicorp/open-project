@@ -34,7 +34,7 @@ module AdminHelper
 
   def linked_sha_reference(sha, url)
     if sha && url
-      link_to sha, url, target: "_blank", rel: "noopener"
+      link_to sha, url, target: "_self", rel: "noopener"
     else
       sha
     end

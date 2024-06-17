@@ -209,7 +209,7 @@ ja:
             %{date} に %{email} へメールを送信しました。 14日間のトライアルを開始するには、受信トレイを確認し、確認リンクをクリックしてください。
           form:
             general_consent: >
-              <a target="_blank" href="%{link_terms}">利用規約</a>と<a target="_blank" href="%{link_privacy}">プライバシー ポリシー</a>に同意します。
+              <a target="_self" href="%{link_terms}">利用規約</a>と<a target="_self" href="%{link_privacy}">プライバシー ポリシー</a>に同意します。
             invalid_email: "無効なメールアドレス"
             label_company: "会社名"
             label_first_name: "名前"
@@ -219,7 +219,7 @@ ja:
             label_maximum_users: "アクティブなユーザーの最大数"
             label_starts_at: "開始"
             label_expires_at: "有効期限"
-            receive_newsletter: OpenProject <a target="_blank" href="%{link}">ニュースレター</a> を受け取りたい。
+            receive_newsletter: OpenProject <a target="_self" href="%{link}">ニュースレター</a> を受け取りたい。
             taken_domain: 有効なトライアルはドメインごとに1つしかありません。
             domain_mismatch: The current request host name does not match the configured host name. Please double check your system settings.
             taken_email: 各ユーザーはトライアルを1回のみ作成できます。
@@ -372,7 +372,7 @@ ja:
       warning: "Please don't share this URL with other users. Anyone with this link will be able to view work package details without an account or password."
       token_name_label: "Where will you be using this?"
       token_name_placeholder: 'Type a name, e.g. "Phone"'
-      token_name_description_text: 'If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href="my/access_token", target="_blank">access tokens</a> list.'
+      token_name_description_text: 'If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href="my/access_token", target="_self">access tokens</a> list.'
       copy_url_label: "URLをコピー"
       ical_generation_error_text: "An error occured while generating the calendar URL."
       success_message: 'The URL "%{name}" was successfully copied to your clipboard. Paste it in your calendar client to complete the subscription.'
@@ -667,7 +667,7 @@ ja:
         date_alert: "Date alert"
         shared: "Shared"
       settings:
-        change_notification_settings: 'You can modify your <a target="_blank" href="%{url}">notification settings</a> to ensure you never miss an important update.'
+        change_notification_settings: 'You can modify your <a target="_self" href="%{url}">notification settings</a> to ensure you never miss an important update.'
         title: "Notification settings"
         notify_me: "Notify me"
         reminders:
@@ -1244,7 +1244,7 @@ ja:
           title: "プレースホルダー ユーザー"
           title_no_ee: "Placeholder user (Enterprise edition only add-on)"
           description: "プロジェクトにアクセスできず、電子メールも送信されません。"
-          description_no_ee: 'Has no access to the project and no emails are sent out. <br>Check out the <a href="%{eeHref}" target="_blank">Enterprise edition</a>'
+          description_no_ee: 'Has no access to the project and no emails are sent out. <br>Check out the <a href="%{eeHref}" target="_self">Enterprise edition</a>'
       principal:
         label:
           name_or_email: "名前またはメールアドレス"
@@ -1264,7 +1264,7 @@ ja:
         label: "%{project} でのロール"
         no_roles_found: "ロールが見つかりません"
         description: >-
-          This is the role that the user will receive when they join your project. The role defines which actions they are allowed to take and which information they are allowed to see. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Learn more about roles and permissions. </a>
+          This is the role that the user will receive when they join your project. The role defines which actions they are allowed to take and which information they are allowed to see. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Learn more about roles and permissions. </a>
         required: "ロールを選択してください"
         next_button: "次へ"
       message:

@@ -208,7 +208,7 @@ fr:
             Nous vous avons envoyé un e-mail le %{date} à l'adresse %{email}. Veuillez vérifier votre boîte de réception et cliquer sur le lien de confirmation fourni pour commencer votre essai de 14 jours.
           form:
             general_consent: >
-              J'accepte les <a target="_blank" href="%{link_terms}">conditions d'utilisation</a> et la <a target="_blank" href="%{link_privacy}">politique de confidentialité</a>.
+              J'accepte les <a target="_self" href="%{link_terms}">conditions d'utilisation</a> et la <a target="_self" href="%{link_privacy}">politique de confidentialité</a>.
             invalid_email: "Adresse e-mail invalide"
             label_company: "Société"
             label_first_name: "Prénom"
@@ -218,7 +218,7 @@ fr:
             label_maximum_users: "Nombre maximal d’utilisateurs actif"
             label_starts_at: "Commence à"
             label_expires_at: "Expire le"
-            receive_newsletter: Je veux recevoir la <a target="_blank" href="%{link}">newsletter OpenProject</a>.
+            receive_newsletter: Je veux recevoir la <a target="_self" href="%{link}">newsletter OpenProject</a>.
             taken_domain: Il ne peut y avoir qu'un seul essai actif par domaine.
             domain_mismatch: Le nom d'hôte de la requête actuelle ne correspond pas au nom d'hôte configuré. Veuillez vérifier les paramètres de votre système.
             taken_email: Chaque utilisateur ne peut créer qu'un essai.
@@ -371,7 +371,7 @@ fr:
       warning: "Veillez à ne pas partager pas cette adresse URL avec d'autres utilisateurs. Quiconque disposant de ce lien sera en mesure de voir les détails du lot de travaux sans nécessité d'avoir un compte ou de saisir un mot de passe."
       token_name_label: "Où comptez-vous l'utiliser ?"
       token_name_placeholder: 'Saisissez un nom, par exemple « Téléphone »'
-      token_name_description_text: 'Si vous vous abonnez à ce calendrier à partir de plusieurs appareils, ce nom vous aidera à les distinguer dans votre liste de <a href="my/access_token", target="_blank">jetons d''accès</a>.'
+      token_name_description_text: 'Si vous vous abonnez à ce calendrier à partir de plusieurs appareils, ce nom vous aidera à les distinguer dans votre liste de <a href="my/access_token", target="_self">jetons d''accès</a>.'
       copy_url_label: "Copier l'URL"
       ical_generation_error_text: "Une erreur s'est produite lors de la génération de l'URL du calendrier."
       success_message: 'L''adresse URL « %{name} » a été copiée avec succès dans votre presse-papiers. Collez-la dans votre client de calendrier pour compléter l''abonnement.'
@@ -667,7 +667,7 @@ fr:
         date_alert: "Alarmes"
         shared: "Partagés"
       settings:
-        change_notification_settings: 'Vous pouvez modifier vos <a target="_blank" href="%{url}">paramètres de notification</a> pour vous assurer de ne jamais manquer une mise à jour importante.'
+        change_notification_settings: 'Vous pouvez modifier vos <a target="_self" href="%{url}">paramètres de notification</a> pour vous assurer de ne jamais manquer une mise à jour importante.'
         title: "Paramètres de notifications"
         notify_me: "M'alerter"
         reminders:
@@ -1246,7 +1246,7 @@ fr:
           title: "Utilisateur de remplacement"
           title_no_ee: "Utilisateur fictif (add-on de la version Entreprise uniquement)"
           description: "N'a pas d'accès au projet et aucun e-mail n'est envoyé."
-          description_no_ee: 'N''a pas accès au projet et aucun courriel n''est envoyé. <br>Consultez la <a href="%{eeHref}" target="_blank">version Entreprise</a>.'
+          description_no_ee: 'N''a pas accès au projet et aucun courriel n''est envoyé. <br>Consultez la <a href="%{eeHref}" target="_self">version Entreprise</a>.'
       principal:
         label:
           name_or_email: "Nom ou adresse e-mail"
@@ -1266,7 +1266,7 @@ fr:
         label: "Rôle dans %{project}"
         no_roles_found: "Aucun rôle trouvé."
         description: >-
-          C'est le rôle que l'utilisateur recevra quand il rejoindra votre projet. Le rôle définit quelles actions il est autorisé à entreprendre et quelles informations il peut voir. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> En savoir plus sur les rôles et les permissions. </a>
+          C'est le rôle que l'utilisateur recevra quand il rejoindra votre projet. Le rôle définit quelles actions il est autorisé à entreprendre et quelles informations il peut voir. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> En savoir plus sur les rôles et les permissions. </a>
         required: "Veuillez sélectionner un rôle"
         next_button: "Suivante"
       message:

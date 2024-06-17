@@ -208,7 +208,7 @@ tr:
             %{email} adresine %{date} tarihinde bir e-posta gönderdik. Lütfen gelen kutunuzu kontrol edin ve 14 günlük denemenize başlamak için verilen onay bağlantısını tıklayın.
           form:
             general_consent: >
-              Katılıyorum  <a target="_blank" href="%{link_terms}">terms of service</a> and the <a target="_blank" href="%{link_privacy}">privacy policy</a>.
+              Katılıyorum  <a target="_self" href="%{link_terms}">terms of service</a> and the <a target="_self" href="%{link_privacy}">privacy policy</a>.
             invalid_email: "Geçersiz e-posta adresi"
             label_company: "Şirket"
             label_first_name: "İsim"
@@ -218,7 +218,7 @@ tr:
             label_maximum_users: "En çok aktif kullanıcı"
             label_starts_at: "Başlangıç tarihi:"
             label_expires_at: "Süre sonu: "
-            receive_newsletter: OpenProject almak istiyorum  <a target="_blank" href="%{link}">Bülten</a>.
+            receive_newsletter: OpenProject almak istiyorum  <a target="_self" href="%{link}">Bülten</a>.
             taken_domain: Alan adı başına yalnızca bir etkin deneme olabilir.
             domain_mismatch: Geçerli istek ana bilgisayar adı, yapılandırılan ana bilgisayar adıyla eşleşmiyor. Lütfen sistem ayarlarınızı tekrar kontrol edin.
             taken_email: Her kullanıcı yalnızca bir deneme oluşturabilir.
@@ -370,7 +370,7 @@ tr:
       warning: "Please don't share this URL with other users. Anyone with this link will be able to view work package details without an account or password."
       token_name_label: "Where will you be using this?"
       token_name_placeholder: 'Type a name, e.g. "Phone"'
-      token_name_description_text: 'If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href="my/access_token", target="_blank">access tokens</a> list.'
+      token_name_description_text: 'If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href="my/access_token", target="_self">access tokens</a> list.'
       copy_url_label: "Copy URL"
       ical_generation_error_text: "An error occured while generating the calendar URL."
       success_message: 'The URL "%{name}" was successfully copied to your clipboard. Paste it in your calendar client to complete the subscription.'
@@ -666,7 +666,7 @@ tr:
         date_alert: "Tarih uyarısı"
         shared: "Shared"
       settings:
-        change_notification_settings: 'Önemli bir güncellemeyi asla kaçırmamak için <a target="_blank" href="%{url}">bildirim ayarlarınızı</a> değiştirebilirsiniz.'
+        change_notification_settings: 'Önemli bir güncellemeyi asla kaçırmamak için <a target="_self" href="%{url}">bildirim ayarlarınızı</a> değiştirebilirsiniz.'
         title: "Bildirim ayarları"
         notify_me: "Beni dürt"
         reminders:
@@ -1245,7 +1245,7 @@ tr:
           title: "Yer tutucu kullanıcı"
           title_no_ee: "Yer tutucu kullanıcı (yalnızca Enterprise sürümü eklentisi)"
           description: "Projeye erişimi yoktur ve e-posta gönderilmez."
-          description_no_ee: 'Projeye erişimi yoktur ve e-posta gönderilmez. <br><a href="%{eeHref}" target="_blank">Enterprise sürümünü</a> inceleyin'
+          description_no_ee: 'Projeye erişimi yoktur ve e-posta gönderilmez. <br><a href="%{eeHref}" target="_self">Enterprise sürümünü</a> inceleyin'
       principal:
         label:
           name_or_email: "İsim veya e-posta adresi"
@@ -1265,7 +1265,7 @@ tr:
         label: "rol %{project}"
         no_roles_found: "Hiç rol bulunamadı."
         description: >-
-          Bu, kullanıcının projenize katıldığında alacağı roldür. Rol, hangi eylemleri yapmalarına ve hangi bilgileri görmelerine izin verildiğini tanımlar.<ahref="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/# roller-and-permissions" target="_blank"> Roller ve izinler hakkında daha fazla bilgi edinin. </a>
+          Bu, kullanıcının projenize katıldığında alacağı roldür. Rol, hangi eylemleri yapmalarına ve hangi bilgileri görmelerine izin verildiğini tanımlar.<ahref="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/# roller-and-permissions" target="_self"> Roller ve izinler hakkında daha fazla bilgi edinin. </a>
         required: "Lütfen bir rol seçin."
         next_button: "Sonraki"
       message:

@@ -208,7 +208,7 @@ zh-CN:
             我们在 %{date}向您的 %{email} 发送了一封电子邮件。请查看您的电子邮件并点击提供的确认链接以开始 14 天的试用。
           form:
             general_consent: >
-              我同意<a target="_blank" href="%{link_terms}">服务条款</a>和<a target="_blank" href="%{link_privacy}">隐私政策</a>。
+              我同意<a target="_self" href="%{link_terms}">服务条款</a>和<a target="_self" href="%{link_privacy}">隐私政策</a>。
             invalid_email: "电子邮件地址无效"
             label_company: "公司"
             label_first_name: "名字"
@@ -218,7 +218,7 @@ zh-CN:
             label_maximum_users: "最大活动用户数"
             label_starts_at: "开始时间："
             label_expires_at: "到期时间"
-            receive_newsletter: 我想要接收 OpenProject <a target="_blank" href="%{link}">简报</a>。
+            receive_newsletter: 我想要接收 OpenProject <a target="_self" href="%{link}">简报</a>。
             taken_domain: 每个域名只能有一个活动的试用。
             domain_mismatch: 当前请求的主机名与配置的主机名不匹配。请仔细检查您的系统设置。
             taken_email: 每个用户只能创建一个试用。
@@ -370,7 +370,7 @@ zh-CN:
       warning: "请不要与其他用户共享此 URL 。拥有这个链接的任何人都可以在没有帐户或密码的情况下查看工作包的详细信息。"
       token_name_label: "您将在哪里使用它？"
       token_name_placeholder: '输入名称，例如“Phone”'
-      token_name_description_text: '如果您从多个设备订阅此日历，此名称将有助于在<a href="my/access_token", target="_blank">访问令牌</a>列表中区分它们。'
+      token_name_description_text: '如果您从多个设备订阅此日历，此名称将有助于在<a href="my/access_token", target="_self">访问令牌</a>列表中区分它们。'
       copy_url_label: "复制链接"
       ical_generation_error_text: "生成日历 URL 时出错。"
       success_message: 'URL“%{name}”已成功复制到剪贴板。请将其粘贴到日历客户端中以完成订阅。'
@@ -665,7 +665,7 @@ zh-CN:
         date_alert: "日期提醒"
         shared: "共享"
       settings:
-        change_notification_settings: '您可以修改您的<a target="_blank" href="%{url}">通知设置</a>，以确保您不会错过重要的更新。'
+        change_notification_settings: '您可以修改您的<a target="_self" href="%{url}">通知设置</a>，以确保您不会错过重要的更新。'
         title: "通知设置"
         notify_me: "通知我"
         reminders:
@@ -1242,7 +1242,7 @@ zh-CN:
           title: "占位符用户"
           title_no_ee: "占位符用户（Enterprise edition 特定功能）"
           description: "无法访问该项目并且未发送电子邮件。"
-          description_no_ee: '无法访问该项目并且未发送电子邮件。<br>请参见 <a href="%{eeHref}" target="_blank">Enterprise edition</a>'
+          description_no_ee: '无法访问该项目并且未发送电子邮件。<br>请参见 <a href="%{eeHref}" target="_self">Enterprise edition</a>'
       principal:
         label:
           name_or_email: "用户名或电子邮件地址"
@@ -1262,7 +1262,7 @@ zh-CN:
         label: "%{project} 中的角色"
         no_roles_found: "没有找到角色"
         description: >-
-          这是用户在加入您的项目时将获得的角色。角色定义了允许其执行哪些操作以及允许其查看哪些信息。<a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank">详细了解角色和权限</a>。
+          这是用户在加入您的项目时将获得的角色。角色定义了允许其执行哪些操作以及允许其查看哪些信息。<a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self">详细了解角色和权限</a>。
         required: "请选择一个角色"
         next_button: "下一个"
       message:

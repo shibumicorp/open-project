@@ -120,7 +120,7 @@ See COPYRIGHT and LICENSE files for more details.
   <%= action_button do %>
     <%= link_to I18n.t(:'meeting.email.open_meeting_link'),
                 meeting_url(@meeting),
-                target: '_blank',
+                target: '_self',
                 style: "color: #333333; text-decoration: none; font-size: 14px;white-space: nowrap;" %>
   <% end %>
 <% end %>

@@ -1532,7 +1532,7 @@ tr:
   error_can_not_delete_in_use_archived_undisclosed: "There are also work packages in archived projects. You need to ask an administrator to perform the deletion to see which projects are affected."
   error_can_not_delete_in_use_archived_work_packages: "There are also work packages in archived projects. You need to reactivate the following projects first, before you can change the attribute of the respective work packages: %{archived_projects_urls}"
   error_can_not_delete_type:
-    explanation: 'Bu tür iş paketleri içerir ve silinemez. Etkilenen tüm iş paketlerini <a target="_blank" href="%{url}">bu görünümde</a> görebilirsiniz.'
+    explanation: 'Bu tür iş paketleri içerir ve silinemez. Etkilenen tüm iş paketlerini <a target="_self" href="%{url}">bu görünümde</a> görebilirsiniz.'
   error_can_not_delete_standard_type: "Standart türler silinemez."
   error_can_not_invite_user: "Kullanıcı daveti gönderemedi."
   error_can_not_remove_role: "Bu rol kullanımda ve silinemez."
@@ -1686,11 +1686,11 @@ tr:
         file_links_journal: >
           From now on, activity related to file links (files stored in external storages) will appear here in the Activity tab. The following represent activity concerning links that already existed:
         progress_calculation_adjusted_from_disabled_mode: >-
-          Progress calculation automatically <a href="%{href}" target="_blank">set to work-based mode and adjusted with version update</a>.
+          Progress calculation automatically <a href="%{href}" target="_self">set to work-based mode and adjusted with version update</a>.
         progress_calculation_adjusted: >-
-          Progress calculation automatically <a href="%{href}" target="_blank">adjusted with version update</a>.
+          Progress calculation automatically <a href="%{href}" target="_self">adjusted with version update</a>.
         totals_removed_from_childless_work_packages: >-
-          Work and progress totals automatically removed for non-parent work packages with <a href="%{href}" target="_blank">version update</a>. This is a maintenance task and can be safely ignored.
+          Work and progress totals automatically removed for non-parent work packages with <a href="%{href}" target="_self">version update</a>. This is a maintenance task and can be safely ignored.
   links:
     configuration_guide: "Yapılandırma rehberi"
     get_in_touch: "Senin soruların var? Bizimle temasa geçin."
@@ -1725,7 +1725,7 @@ tr:
         disabled_text: "API tokens are not enabled by the administrator. Please contact your administrator to use this feature."
       ical:
         title: "iCalendar"
-        text_hint: 'iCalendar tokens allow users to <a href="%{path}" target="_blank">subscribe to OpenProject calendars</a> and view up-to-date work package information from external clients.'
+        text_hint: 'iCalendar tokens allow users to <a href="%{path}" target="_self">subscribe to OpenProject calendars</a> and view up-to-date work package information from external clients.'
         disabled_text: "iCalendar subscriptions are not enabled by the administrator. Please contact your administrator to use this feature."
         empty_text_hint: "To add an iCalendar token, subscribe to a new or existing calendar from within the Calendar module of a project. You must have the necessary permissions."
       oauth:
@@ -2591,7 +2591,7 @@ tr:
   notice_successful_delete: "Silme başarılı."
   notice_successful_update: "Güncelleme başarılı."
   notice_successful_update_custom_fields_added_to_project: |
-    Başarılı güncelleme. Etkinleştirilen türlerin özel alanları, iş paketi formunda otomatik olarak etkinleştirilir. <a href="%{url}" target="_blank">Daha fazlasını görün</a>.
+    Başarılı güncelleme. Etkinleştirilen türlerin özel alanları, iş paketi formunda otomatik olarak etkinleştirilir. <a href="%{url}" target="_self">Daha fazlasını görün</a>.
   notice_successful_update_custom_fields_added_to_type: |
     Başarılı güncelleme. Etkin özel alanlar, bu türdeki ilgili projeler için otomatik olarak etkinleştirilir.
   notice_to_many_principals_to_display: "Çok fazla sonuç var. Yeni üyenin (veya grubun) adını yazarak aramayı daraltın."
@@ -2884,7 +2884,7 @@ tr:
   setting_apiv3_cors_enabled: "CORS'u etkinleştir"
   setting_apiv3_cors_origins: "API V3 Kaynaklar Arası Kaynak Paylaşımı (CORS) izin verilen kaynaklar"
   setting_apiv3_cors_origins_text_html: >
-    CORS etkinleştirilirse, bunlar OpenProject API'ye erişmesine izin verilen kaynaklardır. <br/> Beklenen değerlerin nasıl belirtileceğini öğrenmek için lütfen  <a href="%{origin_link}" target="_blank">Kaynak başlığındaki Belgeleri </a> kontrol edin.
+    CORS etkinleştirilirse, bunlar OpenProject API'ye erişmesine izin verilen kaynaklardır. <br/> Beklenen değerlerin nasıl belirtileceğini öğrenmek için lütfen  <a href="%{origin_link}" target="_self">Kaynak başlığındaki Belgeleri </a> kontrol edin.
   setting_apiv3_write_readonly_attributes: "Write access to read-only attributes"
   setting_apiv3_write_readonly_attributes_instructions_html: >
     If enabled, the API will allow administrators to write static read-only attributes during creation, such as createdAt and author. <br/> <strong>Warning:</strong> This setting has a use-case for e.g., importing data, but allows administrators to impersonate the creation of items as other users. All creation requests are being logged however with the true author. </br> For more information on attributes and supported resources, please see the %{api_documentation_link}.
@@ -2894,7 +2894,7 @@ tr:
   setting_apiv3_docs: "Belgeleme"
   setting_apiv3_docs_enabled: "Dokümanlar sayfasını etkinleştir"
   setting_apiv3_docs_enabled_instructions_html: >
-    Dokümanlar sayfası etkinleştirildiyse, <a href="%{link}" target="_blank">%{link}</a> altında APIv3 belgelerinin etkileşimli bir görünümünü elde edebilirsiniz.
+    Dokümanlar sayfası etkinleştirildiyse, <a href="%{link}" target="_self">%{link}</a> altında APIv3 belgelerinin etkileşimli bir görünümünü elde edebilirsiniz.
   setting_attachment_whitelist: "Ek yükleme beyaz listesi"
   setting_email_delivery_method: "E-posta teslim yöntemi"
   setting_emails_salutation: "Address user in emails with"
@@ -3050,7 +3050,7 @@ tr:
       first_date_of_week_and_year_set: >
         Eğer %{day_of_week_setting_name} veya %{first_week_setting_name} seçeneklerinden biri ayarlanmışsa, ön uçta tutarsızlık yaşanmaması için diğer seçeneğin de ayarlanması gerekir.
       first_week_of_year_text_html: >
-        Select the date of January that is contained in the first week of the year. This value together with first day of the week determines the total number of weeks in a year. For more information, please see our <a href="%{link}" target="_blank">documentation</a> on this topic.
+        Select the date of January that is contained in the first week of the year. This value together with first day of the week determines the total number of weeks in a year. For more information, please see our <a href="%{link}" target="_self">documentation</a> on this topic.
     experimental:
       save_confirmation: Caution! Risk of data loss! Only activate experimental features if you do not mind breaking your OpenProject installation and losing all of its data.
       warning_toast: Feature flags are settings that activate features that are still under development. They shall only be used for testing purposes. They shall never be activated on OpenProject installations holding important data. These features will very likely corrupt your data. Use them at your own risk.
@@ -3064,7 +3064,7 @@ tr:
         type: "Türe göre tüm satır"
         priority: "Önceliğe göre tüm satır"
     icalendar:
-      enable_subscriptions_text_html: Allows users with the necessary permissions to subscribe to OpenProject calendars and access work package information via an external calendar client. <strong>Note:</strong> Please read about <a href="%{link}" target="_blank">iCalendar subscriptions</a> to understand potential security risks before enabling this.
+      enable_subscriptions_text_html: Allows users with the necessary permissions to subscribe to OpenProject calendars and access work package information via an external calendar client. <strong>Note:</strong> Please read about <a href="%{link}" target="_self">iCalendar subscriptions</a> to understand potential security risks before enabling this.
     language_name_being_default: "%{language_name} (default)"
     notifications:
       events_explanation: "Bir e-postanın hangi olay için gönderileceğini yönetir. İş paketleri, bildirimleri her kullanıcı için özel olarak yapılandırılabileceğinden bu listenin dışında tutulur."

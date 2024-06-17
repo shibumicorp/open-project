@@ -208,7 +208,7 @@ lt:
             Mes %{date} išsiuntėme jums el. laišką adresu %{email}. Prašome patikrinti savo laiškų dėžutę ir spustelėti ant patvirtinimo nuorodos, kad pradėtumėte savo 14 dienų bandomąjį periodą.
           form:
             general_consent: >
-              Sutinku su <a target="_blank" href="%{link_terms}">paslaugos sąlygomis</a> ir <a target="_blank" href="%{link_privacy}">privatumo taisyklėmis</a>.
+              Sutinku su <a target="_self" href="%{link_terms}">paslaugos sąlygomis</a> ir <a target="_self" href="%{link_privacy}">privatumo taisyklėmis</a>.
             invalid_email: "Netinkamas el. pašto adresas"
             label_company: "Kompanija"
             label_first_name: "Vardas"
@@ -218,7 +218,7 @@ lt:
             label_maximum_users: "Maksimalus aktyvių naudotojų skaičius"
             label_starts_at: "Prasideda nuo"
             label_expires_at: "Nustoja galioti"
-            receive_newsletter: Noriu gauti OpenProject <a target="_blank" href="%{link}">naujienlaiškį</a>.
+            receive_newsletter: Noriu gauti OpenProject <a target="_self" href="%{link}">naujienlaiškį</a>.
             taken_domain: Gali būti tik vienas aktyvus bandomasis periodas domenui.
             domain_mismatch: Dabartinės užklausos stoties pavadinimas neatitinka sukonfigūruoto stoties vardo. Prašome patikrinti jūsų sistemos nustatymus.
             taken_email: Kiekvienas naudotojas gali sukurti tik vieną bandomąjį periodą.
@@ -371,7 +371,7 @@ lt:
       warning: "Prašome nesidalinti šiuo URL su kitais naudotojais. Bet kas su šia nuoroda galės peržiūrėti darbo paketo detales be paskyros ar slaptažodžio."
       token_name_label: "Kur jūs tai naudosite?"
       token_name_placeholder: 'Įrašykite pavadinimą, pvz. „Telefonas“'
-      token_name_description_text: 'Jei prenumeruojate kalendorių iš kelių įrenginių, šis pavadinimas padės atskirti juos jūsų <a href="my/access_token", target="_blank">prieigos žetonų</a> sąraše.'
+      token_name_description_text: 'Jei prenumeruojate kalendorių iš kelių įrenginių, šis pavadinimas padės atskirti juos jūsų <a href="my/access_token", target="_self">prieigos žetonų</a> sąraše.'
       copy_url_label: "Kopijuoti URL"
       ical_generation_error_text: "Kuriant kalendoriaus URL įvyko klaida."
       success_message: 'URL „%{name}“ buvo sėkmingai nukopijuotas į jūsų iškarpinę. Įkelkite jį į jūsų kalendoriaus klientą, kad baigtumėte prenumeratą.'
@@ -669,7 +669,7 @@ lt:
         date_alert: "Datos įspėjimas"
         shared: "Bendrinta"
       settings:
-        change_notification_settings: 'Jūs galite keisti savo <a target="_blank" href="%{url}">pranešimų nustatymus</a>, kad užtikrintumėte, jog niekada nepraleisite svarbaus atnaujinimo.'
+        change_notification_settings: 'Jūs galite keisti savo <a target="_self" href="%{url}">pranešimų nustatymus</a>, kad užtikrintumėte, jog niekada nepraleisite svarbaus atnaujinimo.'
         title: "Pranešimų nustatymai"
         notify_me: "Pranešti man"
         reminders:
@@ -1252,7 +1252,7 @@ lt:
           title: "Statytinis naudotojas"
           title_no_ee: "Statytiniai naudotojai (Enterprise versijos priedas)"
           description: "Neturi prieigos prie projekto ir jokie el. pašto laiškai nebuvo išsiųsti."
-          description_no_ee: 'Neturi prieigos prie projekto ir jokie el. pašto laiškai nebuvo išsiųsti. <br>Pabandykite <a href="%{eeHref}" target="_blank">Enterprise versiją</a>'
+          description_no_ee: 'Neturi prieigos prie projekto ir jokie el. pašto laiškai nebuvo išsiųsti. <br>Pabandykite <a href="%{eeHref}" target="_self">Enterprise versiją</a>'
       principal:
         label:
           name_or_email: "Vardas arba elektroninio pašto adresas"
@@ -1272,7 +1272,7 @@ lt:
         label: "Vaidmuo projekte %{project}"
         no_roles_found: "Nerasta jokių vaidmenų"
         description: >-
-          Tai yra vaidmuo, kurį naudotojas gaus, kai prisijungs prie jūsų projekto. Vaidmuo nurodo, kokius veiksmus leidžiama atlikti ir kokią informaciją galima matyti. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Sužinokite daugiau apie vaidmenis ir teises. </a>
+          Tai yra vaidmuo, kurį naudotojas gaus, kai prisijungs prie jūsų projekto. Vaidmuo nurodo, kokius veiksmus leidžiama atlikti ir kokią informaciją galima matyti. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Sužinokite daugiau apie vaidmenis ir teises. </a>
         required: "Prašome parinkti vaidmenį"
         next_button: "Kitas"
       message:

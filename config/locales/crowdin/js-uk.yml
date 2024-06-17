@@ -208,7 +208,7 @@ uk:
             Ми надіслали вам електронний лист %{date} на адресу %{email}. Перевірте поштову скриньку та перейдіть за відповідним посиланням у листі, щоб почати пробний 14-денний період.
           form:
             general_consent: >
-              Я приймаю <a target="_blank" href="%{link_terms}">умови обслуговування</a> та <a target="_blank" href="%{link_privacy}">політику конфіденційності</a>.
+              Я приймаю <a target="_self" href="%{link_terms}">умови обслуговування</a> та <a target="_self" href="%{link_privacy}">політику конфіденційності</a>.
             invalid_email: "Хибна адреса ел. пошти"
             label_company: "Компанія"
             label_first_name: "Ім'я"
@@ -218,7 +218,7 @@ uk:
             label_maximum_users: "Максимальна кількість активних користувачів"
             label_starts_at: "Починається о"
             label_expires_at: "Закінчується о"
-            receive_newsletter: Я хочу отримувати розсилку новин <a target="_blank" href="%{link}">OpenProject</a>.
+            receive_newsletter: Я хочу отримувати розсилку новин <a target="_self" href="%{link}">OpenProject</a>.
             taken_domain: Може бути лише одна активна пробна версія на домен.
             domain_mismatch: Ім’я хосту поточного запиту не відповідає налаштованому імені хосту. Перевірте свої системні налаштування.
             taken_email: Кожен користувач може створити лише одну пробну версію.
@@ -371,7 +371,7 @@ uk:
       warning: "Не передавайте нікому цю URL-адресу. Будь-хто із цим посиланням зможе переглянути інформацію про пакети робіт без облікового запису або пароля."
       token_name_label: "Де ви використовуватимете його?"
       token_name_placeholder: 'Введіть ім’я, наприклад «Телефон»'
-      token_name_description_text: 'Якщо ви підписані на цей календар із кількох пристроїв, це ім’я допоможе вам розрізняти їх у своєму списку <a href="my/access_token", target="_blank">маркерів доступу</a>.'
+      token_name_description_text: 'Якщо ви підписані на цей календар із кількох пристроїв, це ім’я допоможе вам розрізняти їх у своєму списку <a href="my/access_token", target="_self">маркерів доступу</a>.'
       copy_url_label: "Копіювати URL"
       ical_generation_error_text: "Під час створення URL-адреси календаря сталася помилка."
       success_message: 'URL-адресу «%{name}» скопійовано в буфер обміну. Вставте її в клієнт свого календаря, що завершити створення підписки.'
@@ -669,7 +669,7 @@ uk:
         date_alert: "Оповіщення про дату"
         shared: "Спільні"
       settings:
-        change_notification_settings: 'Ви можете змінити <a target="_blank" href="%{url}">налаштування сповіщень</a>, щоб ніколи не пропускати важливі оновлення.'
+        change_notification_settings: 'Ви можете змінити <a target="_self" href="%{url}">налаштування сповіщень</a>, щоб ніколи не пропускати важливі оновлення.'
         title: "Налаштування сповіщень"
         notify_me: "Сповіщати мене"
         reminders:
@@ -1252,7 +1252,7 @@ uk:
           title: "Прототип користувача"
           title_no_ee: "Прототип користувача (лише у версії Enterprise)"
           description: "Немає доступу до проєкту; електронні листи не відправляються."
-          description_no_ee: 'Немає доступу до проєкту; електронні листи не відправляються. <br>Ознайомтеся з перевагами <a href="%{eeHref}" target="_blank">версії Enterprise</a>.'
+          description_no_ee: 'Немає доступу до проєкту; електронні листи не відправляються. <br>Ознайомтеся з перевагами <a href="%{eeHref}" target="_self">версії Enterprise</a>.'
       principal:
         label:
           name_or_email: "Ім‘я або електронна адреса"
@@ -1272,7 +1272,7 @@ uk:
         label: "Ролі у проєкті «%{project}»"
         no_roles_found: "Ролей не знайдено"
         description: >-
-          Це роль, яку користувач отримає в разі приєднання до вашого проєкту. Роль визначає, які дії йому дозволено та яку інформацію він може бачити. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Дізнатися більше про ролі й дозволи. </a>
+          Це роль, яку користувач отримає в разі приєднання до вашого проєкту. Роль визначає, які дії йому дозволено та яку інформацію він може бачити. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Дізнатися більше про ролі й дозволи. </a>
         required: "Виберіть роль"
         next_button: "Далі"
       message:

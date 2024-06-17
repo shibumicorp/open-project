@@ -1493,7 +1493,7 @@ id:
   error_can_not_delete_in_use_archived_undisclosed: "There are also work packages in archived projects. You need to ask an administrator to perform the deletion to see which projects are affected."
   error_can_not_delete_in_use_archived_work_packages: "There are also work packages in archived projects. You need to reactivate the following projects first, before you can change the attribute of the respective work packages: %{archived_projects_urls}"
   error_can_not_delete_type:
-    explanation: 'Jenis ini berisi paket pekerjaan dan tidak dapat dihapus. Anda dapat melihat semua paket pekerjaan yang terpengaruh di <a target="_blank" href="%{url}">tampilan ini</a>.'
+    explanation: 'Jenis ini berisi paket pekerjaan dan tidak dapat dihapus. Anda dapat melihat semua paket pekerjaan yang terpengaruh di <a target="_self" href="%{url}">tampilan ini</a>.'
   error_can_not_delete_standard_type: "Tipe standar tidak dapat dihapus."
   error_can_not_invite_user: "Gagal untuk mengirimkan undangan kepada pengguna."
   error_can_not_remove_role: "Role ini sedang dipakai dan tidak dapat dihapus."
@@ -1647,11 +1647,11 @@ id:
         file_links_journal: >
           From now on, activity related to file links (files stored in external storages) will appear here in the Activity tab. The following represent activity concerning links that already existed:
         progress_calculation_adjusted_from_disabled_mode: >-
-          Progress calculation automatically <a href="%{href}" target="_blank">set to work-based mode and adjusted with version update</a>.
+          Progress calculation automatically <a href="%{href}" target="_self">set to work-based mode and adjusted with version update</a>.
         progress_calculation_adjusted: >-
-          Progress calculation automatically <a href="%{href}" target="_blank">adjusted with version update</a>.
+          Progress calculation automatically <a href="%{href}" target="_self">adjusted with version update</a>.
         totals_removed_from_childless_work_packages: >-
-          Work and progress totals automatically removed for non-parent work packages with <a href="%{href}" target="_blank">version update</a>. This is a maintenance task and can be safely ignored.
+          Work and progress totals automatically removed for non-parent work packages with <a href="%{href}" target="_self">version update</a>. This is a maintenance task and can be safely ignored.
   links:
     configuration_guide: "Petunjuk Konfigurasi"
     get_in_touch: "Anda punya pertanyaan? Hubungi kami."
@@ -1686,7 +1686,7 @@ id:
         disabled_text: "API tokens are not enabled by the administrator. Please contact your administrator to use this feature."
       ical:
         title: "iCalendar"
-        text_hint: 'iCalendar tokens allow users to <a href="%{path}" target="_blank">subscribe to OpenProject calendars</a> and view up-to-date work package information from external clients.'
+        text_hint: 'iCalendar tokens allow users to <a href="%{path}" target="_self">subscribe to OpenProject calendars</a> and view up-to-date work package information from external clients.'
         disabled_text: "iCalendar subscriptions are not enabled by the administrator. Please contact your administrator to use this feature."
         empty_text_hint: "To add an iCalendar token, subscribe to a new or existing calendar from within the Calendar module of a project. You must have the necessary permissions."
       oauth:
@@ -2552,7 +2552,7 @@ id:
   notice_successful_delete: "Berhasil dihapus."
   notice_successful_update: "Berhasil diperbarui."
   notice_successful_update_custom_fields_added_to_project: |
-    Pembaruan berhasil. Bidang kustom dari jenis yang diaktifkan secara otomatis diaktifkan pada formulir paket pekerjaan. <a href="%{url}" target="_blank">Lihat selengkapnya</a>.
+    Pembaruan berhasil. Bidang kustom dari jenis yang diaktifkan secara otomatis diaktifkan pada formulir paket pekerjaan. <a href="%{url}" target="_self">Lihat selengkapnya</a>.
   notice_successful_update_custom_fields_added_to_type: |
     Pembaruan berhasil. Bidang kustom aktif secara otomatis diaktifkan untuk proyek terkait jenis ini.
   notice_to_many_principals_to_display: "Ada terlalu banyak hasil. Persempit pencarian dengan mengetik nama member baru (atau grup)."
@@ -2842,7 +2842,7 @@ id:
   setting_apiv3_cors_enabled: "Aktifkan CORS"
   setting_apiv3_cors_origins: "API V3 Cross-Origin Resource Sharing (CORS) memungkinkan asal"
   setting_apiv3_cors_origins_text_html: >
-    Jika CORS diaktifkan, ini adalah asal yang diizinkan untuk mengakses OpenProject API. <br/> Harap periksa <a href="%{origin_link}" target="_blank">Dokumentasi pada header Asal</a> tentang cara menentukan nilai yang diharapkan.
+    Jika CORS diaktifkan, ini adalah asal yang diizinkan untuk mengakses OpenProject API. <br/> Harap periksa <a href="%{origin_link}" target="_self">Dokumentasi pada header Asal</a> tentang cara menentukan nilai yang diharapkan.
   setting_apiv3_write_readonly_attributes: "Write access to read-only attributes"
   setting_apiv3_write_readonly_attributes_instructions_html: >
     If enabled, the API will allow administrators to write static read-only attributes during creation, such as createdAt and author. <br/> <strong>Warning:</strong> This setting has a use-case for e.g., importing data, but allows administrators to impersonate the creation of items as other users. All creation requests are being logged however with the true author. </br> For more information on attributes and supported resources, please see the %{api_documentation_link}.
@@ -2852,7 +2852,7 @@ id:
   setting_apiv3_docs: "Dokumentasi"
   setting_apiv3_docs_enabled: "Aktifkan halaman dokumen"
   setting_apiv3_docs_enabled_instructions_html: >
-    Jika laman dokumen diaktifkan, Anda bisa mendapatkan tampilan interaktif dokumentasi APIv3 di bawah <a href="%{link}" target="_blank">%{link}</a>.
+    Jika laman dokumen diaktifkan, Anda bisa mendapatkan tampilan interaktif dokumentasi APIv3 di bawah <a href="%{link}" target="_self">%{link}</a>.
   setting_attachment_whitelist: "Daftar putih upload lampiran"
   setting_email_delivery_method: "Email delivery method"
   setting_emails_salutation: "Address user in emails with"
@@ -3008,7 +3008,7 @@ id:
       first_date_of_week_and_year_set: >
         If either options "%{day_of_week_setting_name}" or "%{first_week_setting_name}" are set, the other has to be set as well to avoid inconsistencies in the frontend.
       first_week_of_year_text_html: >
-        Select the date of January that is contained in the first week of the year. This value together with first day of the week determines the total number of weeks in a year. For more information, please see our <a href="%{link}" target="_blank">documentation</a> on this topic.
+        Select the date of January that is contained in the first week of the year. This value together with first day of the week determines the total number of weeks in a year. For more information, please see our <a href="%{link}" target="_self">documentation</a> on this topic.
     experimental:
       save_confirmation: Caution! Risk of data loss! Only activate experimental features if you do not mind breaking your OpenProject installation and losing all of its data.
       warning_toast: Feature flags are settings that activate features that are still under development. They shall only be used for testing purposes. They shall never be activated on OpenProject installations holding important data. These features will very likely corrupt your data. Use them at your own risk.
@@ -3022,7 +3022,7 @@ id:
         type: "Entire row by Type"
         priority: "Entire row by Priority"
     icalendar:
-      enable_subscriptions_text_html: Allows users with the necessary permissions to subscribe to OpenProject calendars and access work package information via an external calendar client. <strong>Note:</strong> Please read about <a href="%{link}" target="_blank">iCalendar subscriptions</a> to understand potential security risks before enabling this.
+      enable_subscriptions_text_html: Allows users with the necessary permissions to subscribe to OpenProject calendars and access work package information via an external calendar client. <strong>Note:</strong> Please read about <a href="%{link}" target="_self">iCalendar subscriptions</a> to understand potential security risks before enabling this.
     language_name_being_default: "%{language_name} (default)"
     notifications:
       events_explanation: "Governs for which event an email is sent out. Work packages are excluded from this list as the notifications for them can be configured specifically for every user."

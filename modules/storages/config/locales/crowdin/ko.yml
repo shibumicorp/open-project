@@ -126,7 +126,7 @@ ko:
       host: https://를 포함하여 저장소의 호스트 주소를 추가하세요. 255자 이하여야 합니다.
       managed_project_folders_application_password_caption: '다음에서 이 값을 복사하여 자동으로 관리되는 폴더 활성화: %{provider_type_link}.'
       name: 사용자가 여러 저장소 간에 구별할 수 있도록 저장소에 이름을 지정하세요.
-      new_storage: 자세한 내용은 <a target='_blank' href='%{provider_link}'>%{provider_name} 파일 저장소 설정</a> 통합에 대한 문서를 참조하세요.
+      new_storage: 자세한 내용은 <a target='_self' href='%{provider_link}'>%{provider_name} 파일 저장소 설정</a> 통합에 대한 문서를 참조하세요.
       nextcloud:
         application_link_text: 애플리케이션 “Integration OpenProject”
         integration: Nextcloud 관리/OpenProject

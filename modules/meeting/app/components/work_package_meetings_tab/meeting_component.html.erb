@@ -4,7 +4,7 @@
     border_box.with_header do
       flex_layout do |flex|
         flex.with_column(mr: 1) do
-          render(Primer::Beta::Link.new(href: meeting_path(@meeting), target: "_blank", font_size: :normal,
+          render(Primer::Beta::Link.new(href: meeting_path(@meeting), target: "_self", font_size: :normal,
                                         font_weight: :bold, scheme: :primary, underline: false)) do
             "#{@meeting.project.name}: #{@meeting.title}"
           end

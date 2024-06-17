@@ -126,7 +126,7 @@ zh-TW:
       host: 請添加存儲區的主機地址，包括 https://。不應超過 255 個字符。
       managed_project_folders_application_password_caption: '透過從 %{provider_type_link} 複製此值來啟用自動託管資料夾。'
       name: 為您的存儲區命名，以便用戶可以區分多個存儲區。
-      new_storage: 請閱讀有關<a target='_blank' href='%{provider_link}'>設定 %{provider_name} 文件儲存</a>整合的文檔，以了解更多資訊。
+      new_storage: 請閱讀有關<a target='_self' href='%{provider_link}'>設定 %{provider_name} 文件儲存</a>整合的文檔，以了解更多資訊。
       nextcloud:
         application_link_text: 應用程式 “Integration OpenProject”
         integration: Nextcloud 管理 / OpenProject

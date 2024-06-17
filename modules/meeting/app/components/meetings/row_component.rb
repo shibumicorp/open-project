@@ -57,7 +57,7 @@ module Meetings
     def location
       helpers.auto_link(model.location,
                         link: :all,
-                        html: { target: "_blank" })
+                        html: { target: "_self" })
     end
   end
 end

@@ -126,7 +126,7 @@ de:
       host: Bitte ergänzen Sie die Host-Adresse Ihres Speichers (einschließlich https://). Sie sollte nicht länger als 255 Zeichen sein.
       managed_project_folders_application_password_caption: 'Automatisch verwaltete Ordner aktivieren, indem Sie diesen Wert kopieren: %{provider_type_link}.'
       name: Geben Sie Ihrem Speicher einen Namen, damit Benutzer zwischen mehreren Speichern unterscheiden können.
-      new_storage: Lesen Sie unsere Dokumentation zur <a target='_blank' href='%{provider_link}'>Konfiguration eines %{provider_name} Dateispeichers</a> für weitere Informationen.
+      new_storage: Lesen Sie unsere Dokumentation zur <a target='_self' href='%{provider_link}'>Konfiguration eines %{provider_name} Dateispeichers</a> für weitere Informationen.
       nextcloud:
         application_link_text: Anwendung „OpenProject Integration“
         integration: Nextcloud Administration / OpenProject

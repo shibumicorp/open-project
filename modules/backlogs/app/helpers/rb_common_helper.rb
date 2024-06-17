@@ -117,7 +117,7 @@ module RbCommonHelper
 
   def modal_link_to(title, path, options = {})
     html_id = "modal_work_package_#{SecureRandom.hex(10)}"
-    link_to(title, path, options.merge(id: html_id, target: "_blank"))
+    link_to(title, path, options.merge(id: html_id, target: "_self"))
   end
 
   def sprint_link_or_empty(item)
@@ -207,7 +207,7 @@ module RbCommonHelper
     link_to(I18n.t("backlogs.show_burndown_chart"),
             backlogs_project_sprint_burndown_chart_path(project.identifier, sprint),
             class: "show_burndown_chart button",
-            target: :_blank, rel: :noopener)
+            target: :_self, rel: :noopener)
   end
 
   private

@@ -208,7 +208,7 @@ es:
             Le hemos enviado un correo electrónico a %{email} el %{date}. Por favor, compruebe su bandeja de entrada y haga clic en el enlace de confirmación que le hemos enviado para comenzar con su prueba gratuita de 14 días.
           form:
             general_consent: >
-              Estoy de acuerdo con los <a target="_blank" href="%{link_terms}">términos del servicio</a> y la <a target="_blank" href="%{link_privacy}">política de privacidad</a>.
+              Estoy de acuerdo con los <a target="_self" href="%{link_terms}">términos del servicio</a> y la <a target="_self" href="%{link_privacy}">política de privacidad</a>.
             invalid_email: "Dirección de correo electrónico no válida"
             label_company: "Empresa"
             label_first_name: "Nombre"
@@ -218,7 +218,7 @@ es:
             label_maximum_users: "Máximo de usuarios activos"
             label_starts_at: "Empieza el"
             label_expires_at: "Expira el"
-            receive_newsletter: Quiero recibir el <a target="_blank" href="%{link}">boletín</a> de OpenProject.
+            receive_newsletter: Quiero recibir el <a target="_self" href="%{link}">boletín</a> de OpenProject.
             taken_domain: Solo puede existir una prueba activa por dominio.
             domain_mismatch: El nombre actual de host no coincide con el nombre de host configurado. Por favor, comprueba la configuración del sistema.
             taken_email: Cada usuario solo puede crear una prueba.
@@ -371,7 +371,7 @@ es:
       warning: "No comparta esta URL con otros usuarios. Cualquiera que tenga este enlace podrá ver los detalles del paquete de trabajo sin necesidad de una cuenta o contraseña."
       token_name_label: "¿Dónde lo utilizará?"
       token_name_placeholder: 'Escriba un nombre, por ejemplo «Teléfono».'
-      token_name_description_text: 'Si se suscribe a este calendario desde varios dispositivos, este nombre le ayudará a distinguirlos en su lista de <a href="my/access_token", target="_blank">tokens de acceso</a>.'
+      token_name_description_text: 'Si se suscribe a este calendario desde varios dispositivos, este nombre le ayudará a distinguirlos en su lista de <a href="my/access_token", target="_self">tokens de acceso</a>.'
       copy_url_label: "Copiar URL"
       ical_generation_error_text: "Se ha producido un error al generar la URL del calendario."
       success_message: 'La URL «%{name}» se ha copiado correctamente en su portapapeles. Péguela en su cliente de calendario para completar la suscripción.'
@@ -667,7 +667,7 @@ es:
         date_alert: "Alerta de fecha"
         shared: "Compartido"
       settings:
-        change_notification_settings: 'Puede modificar su <a target="_blank" href="%{url}">configuración de notificaciones</a> para asegurarse que nunca se pierda una actualización importante.'
+        change_notification_settings: 'Puede modificar su <a target="_self" href="%{url}">configuración de notificaciones</a> para asegurarse que nunca se pierda una actualización importante.'
         title: "Ajustes de notificación"
         notify_me: "Notifícame"
         reminders:
@@ -1246,7 +1246,7 @@ es:
           title: "Usuario de marcador de posición"
           title_no_ee: "Usuario de marcador de posición (extensión solo para Enterprise)"
           description: "No tiene acceso al proyecto y no se enviarán correos electrónicos."
-          description_no_ee: 'No tiene acceso al proyecto y no se enviarán correos electrónicos. <br>Consulte <a href="%{eeHref}" target="_blank">Enterprise</a>'
+          description_no_ee: 'No tiene acceso al proyecto y no se enviarán correos electrónicos. <br>Consulte <a href="%{eeHref}" target="_self">Enterprise</a>'
       principal:
         label:
           name_or_email: "Nombre o dirección de correo electrónico"
@@ -1266,7 +1266,7 @@ es:
         label: "Rol en %{project}"
         no_roles_found: "No se encontraron roles"
         description: >-
-          Este es el role que el usuario recibirá al unirse al proyecto. El role define las acciones que són permitidas y que información pueden ver. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Obtén más información sobre roles y permisos. </a>
+          Este es el role que el usuario recibirá al unirse al proyecto. El role define las acciones que són permitidas y que información pueden ver. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Obtén más información sobre roles y permisos. </a>
         required: "Por favor, seleccione un rol"
         next_button: "Siguiente"
       message:

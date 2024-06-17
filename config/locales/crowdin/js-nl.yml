@@ -208,7 +208,7 @@ nl:
             We hebben je een e-mail gestuurd op %{date} naar %{email}. Controleer uw inbox en klik op de bevestigingslink om uw proefperiode van 14 dagen te starten.
           form:
             general_consent: >
-              Ik ga akkoord met de <a target="_blank" href="%{link_terms}">gebruiksvoorwaarden</a> en het <a target="_blank" href="%{link_privacy}">privacybeleid</a>.
+              Ik ga akkoord met de <a target="_self" href="%{link_terms}">gebruiksvoorwaarden</a> en het <a target="_self" href="%{link_privacy}">privacybeleid</a>.
             invalid_email: "Ongeldig e-mailadres"
             label_company: "Bedrijfsnaam"
             label_first_name: "Voornaam"
@@ -218,7 +218,7 @@ nl:
             label_maximum_users: "Maximum aantal actieve gebruikers"
             label_starts_at: "Start op"
             label_expires_at: "Verloopt op"
-            receive_newsletter: Ik wil de OpenProject <a target="_blank" href="%{link}">nieuwsbrief</a> ontvangen.
+            receive_newsletter: Ik wil de OpenProject <a target="_self" href="%{link}">nieuwsbrief</a> ontvangen.
             taken_domain: Er kan slechts één actieve proefperiode per domein zijn.
             domain_mismatch: De huidige hostnaam van de aanvraag komt niet overeen met de geconfigureerde hostnaam. Controleer uw systeeminstellingen.
             taken_email: Elke gebruiker kan slechts één proefperiode aanmaken.
@@ -371,7 +371,7 @@ nl:
       warning: "Please don't share this URL with other users. Anyone with this link will be able to view work package details without an account or password."
       token_name_label: "Waar gaat u dit gebruiken?"
       token_name_placeholder: 'Typ een naam, bijv. "Telefoon"'
-      token_name_description_text: 'If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href="my/access_token", target="_blank">access tokens</a> list.'
+      token_name_description_text: 'If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href="my/access_token", target="_self">access tokens</a> list.'
       copy_url_label: "URL kopiëren"
       ical_generation_error_text: "An error occured while generating the calendar URL."
       success_message: 'The URL "%{name}" was successfully copied to your clipboard. Paste it in your calendar client to complete the subscription.'
@@ -667,7 +667,7 @@ nl:
         date_alert: "Date alert"
         shared: "Shared"
       settings:
-        change_notification_settings: 'You can modify your <a target="_blank" href="%{url}">notification settings</a> to ensure you never miss an important update.'
+        change_notification_settings: 'You can modify your <a target="_self" href="%{url}">notification settings</a> to ensure you never miss an important update.'
         title: "Instellingen voor meldingen"
         notify_me: "Waarschuw mij"
         reminders:
@@ -1246,7 +1246,7 @@ nl:
           title: "Tijdelijke gebruiker"
           title_no_ee: "Placeholder user (Enterprise edition only add-on)"
           description: "Heeft geen toegang tot het project en er worden geen e-mails verstuurd."
-          description_no_ee: 'Has no access to the project and no emails are sent out. <br>Check out the <a href="%{eeHref}" target="_blank">Enterprise edition</a>'
+          description_no_ee: 'Has no access to the project and no emails are sent out. <br>Check out the <a href="%{eeHref}" target="_self">Enterprise edition</a>'
       principal:
         label:
           name_or_email: "Naam of e-mailadres"
@@ -1266,7 +1266,7 @@ nl:
         label: "Rol in %{project}"
         no_roles_found: "Geen rollen gevonden"
         description: >-
-          This is the role that the user will receive when they join your project. The role defines which actions they are allowed to take and which information they are allowed to see. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Learn more about roles and permissions. </a>
+          This is the role that the user will receive when they join your project. The role defines which actions they are allowed to take and which information they are allowed to see. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Learn more about roles and permissions. </a>
         required: "Selecteer een rol"
         next_button: "Volgende"
       message:

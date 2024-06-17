@@ -48,7 +48,7 @@ export class ZenModeButtonComponent extends AbstractWorkPackageButtonComponent {
 
   public iconClass = 'icon-zen-mode';
 
-  static inZenMode = false;
+  static inZenMode = true;
 
   private activateLabel:string;
 
@@ -67,21 +67,23 @@ export class ZenModeButtonComponent extends AbstractWorkPackageButtonComponent {
         // This event might get triggered several times for once leaving
         // fullscreen mode.
         if (!screenfull.isFullscreen) {
-          self.deactivateZenMode();
+          self.activateZenMode();
         }
       });
     }
+    self.activateZenMode();
   }
 
   public get label():string {
-    if (this.isActive) {
+    // if (this.isActive) {
       return this.deactivateLabel;
-    }
-    return this.activateLabel;
+    // }
+    // return this.activateLabel;
   }
 
   public isToggle():boolean {
-    return true;
+    // return true;
+    return false;
   }
 
   private deactivateZenMode():void {
@@ -104,11 +106,11 @@ export class ZenModeButtonComponent extends AbstractWorkPackageButtonComponent {
   }
 
   public performAction(evt:Event):false {
-    if (ZenModeButtonComponent.inZenMode) {
-      this.deactivateZenMode();
-    } else {
-      this.activateZenMode();
-    }
+    // if (ZenModeButtonComponent.inZenMode) {
+    //   this.deactivateZenMode();
+    // } else {
+    //   this.activateZenMode();
+    // }
 
     evt.preventDefault();
     return false;

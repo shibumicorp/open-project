@@ -208,7 +208,7 @@ ms:
             Kami telah menghantar satu e-mel kepada anda pada %{date} kepada %{email}. Sila semak peti masuk anda dan klik pautan pengesahan yang disediakan untuk memulakan percubaan 14 hari anda.
           form:
             general_consent: >
-              Saya bersetuju dengan <a target="_blank" href="%{link_terms}">syarat-syarat perkhidmatan</a> dan <a target="_blank" href="%{link_privacy}">polisi privasi</a>.
+              Saya bersetuju dengan <a target="_self" href="%{link_terms}">syarat-syarat perkhidmatan</a> dan <a target="_self" href="%{link_privacy}">polisi privasi</a>.
             invalid_email: "Alamat e-mel tidak sah"
             label_company: "Syarikat"
             label_first_name: "Nama pertama"
@@ -218,7 +218,7 @@ ms:
             label_maximum_users: "Pengguna aktif maksimum"
             label_starts_at: "Mula pada"
             label_expires_at: "Tamat tempoh pada"
-            receive_newsletter: Saya ingin menerima <a target="_blank" href="%{link}">surat berita</a> OpenProject.
+            receive_newsletter: Saya ingin menerima <a target="_self" href="%{link}">surat berita</a> OpenProject.
             taken_domain: Hanya boleh mempunyai satu percubaan aktif setiap domain.
             domain_mismatch: Permintaan nama hos semasa tidak sepadan dengan nama hos yang dikonfigurasikan. Sila semak tetapan sistem anda sekali lagi.
             taken_email: Setiap pengguna hanya boleh mencipta satu percubaan.
@@ -371,7 +371,7 @@ ms:
       warning: "Sila jangan kongsi URL ini dengan pengguna lain. Sesiapa sahaja yang mempunyai pautan ini akan boleh melihat butiran pakej kerja tanpa akaun atau kata laluan."
       token_name_label: "Dimanakah anda akan menggunakan ini?"
       token_name_placeholder: 'Taip nama, cth. "Telefon"'
-      token_name_description_text: 'Jika anda melanggan kalendar ini dari pelbagai peranti, nama ini akan membantu anda membezakan antara mereka dalam senarai <a href="my/access_token", target="_blank">token akses</a> anda.'
+      token_name_description_text: 'Jika anda melanggan kalendar ini dari pelbagai peranti, nama ini akan membantu anda membezakan antara mereka dalam senarai <a href="my/access_token", target="_self">token akses</a> anda.'
       copy_url_label: "Salin URL"
       ical_generation_error_text: "Ralat berlaku semasa menjana URL kalendar."
       success_message: '"%{name}" URL berjaya disalin ke papan klip anda. Sisipkan ia dalam kalendar pelanggan anda untuk lengkapkan langganan.'
@@ -666,7 +666,7 @@ ms:
         date_alert: "Peringatan tarikh"
         shared: "Dikongsi"
       settings:
-        change_notification_settings: 'Anda boleh mengubah suai <a target="_blank" href="%{url}">tetapan pemberitahuan</a> anda untuk memastikan anda tidak terlepas tarikh yang penting.'
+        change_notification_settings: 'Anda boleh mengubah suai <a target="_self" href="%{url}">tetapan pemberitahuan</a> anda untuk memastikan anda tidak terlepas tarikh yang penting.'
         title: "Tetapan pemberitahuan"
         notify_me: "Maklumkan saya"
         reminders:
@@ -1243,7 +1243,7 @@ ms:
           title: "Pengguna placeholder"
           title_no_ee: "Pengguna placeholder (Edisi Enterprise hanyalah tambahan)"
           description: "Tidak mempunyai akses ke projek dan tiada e-mel yang dihantar keluar."
-          description_no_ee: 'Tidak mempunyai akses ke projek dan tiada e-mel dihantar keluar. <br>Lihat<a href="%{eeHref}" target="_blank">Edisi Enterprise</a>'
+          description_no_ee: 'Tidak mempunyai akses ke projek dan tiada e-mel dihantar keluar. <br>Lihat<a href="%{eeHref}" target="_self">Edisi Enterprise</a>'
       principal:
         label:
           name_or_email: "Nama atau alamat e-mel"
@@ -1263,7 +1263,7 @@ ms:
         label: "Peranan dalam %{project}"
         no_roles_found: "Tiada peranan ditemui"
         description: >-
-          Ini adalah peranan yang pengguna akan menerima apabila mereka menyertai projek anda. Peranan tersebut menentukan tindakan yang mereka dibenarkan untuk ambil dan maklumat yang mereka boleh lihat. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Ketahui lebih lanjut tentang peranan dan kebenaran. </a>
+          Ini adalah peranan yang pengguna akan menerima apabila mereka menyertai projek anda. Peranan tersebut menentukan tindakan yang mereka dibenarkan untuk ambil dan maklumat yang mereka boleh lihat. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Ketahui lebih lanjut tentang peranan dan kebenaran. </a>
         required: "Sila pilih peranan"
         next_button: "Seterusnya"
       message:

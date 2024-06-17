@@ -208,7 +208,7 @@ it:
             Ti abbiamo inviato un'email il %{date} su %{email}. Controlla le tue email e clicca sul link di conferma fornito per iniziare la prova di 14 giorni.
           form:
             general_consent: >
-              Accetto le <a target="_blank" href="%{link_terms}">condizioni d'uso</a> e l'<a target="_blank" href="%{link_privacy}">informativa sulla privacy</a>.
+              Accetto le <a target="_self" href="%{link_terms}">condizioni d'uso</a> e l'<a target="_self" href="%{link_privacy}">informativa sulla privacy</a>.
             invalid_email: "Indirizzo email non valido"
             label_company: "Azienda"
             label_first_name: "Nome"
@@ -218,7 +218,7 @@ it:
             label_maximum_users: "Numero massimo di utenti attivi"
             label_starts_at: "Comincia alle"
             label_expires_at: "Scade il"
-            receive_newsletter: Voglio ricevere la <a target="_blank" href="%{link}">newsletter</a> di OpenProject.
+            receive_newsletter: Voglio ricevere la <a target="_self" href="%{link}">newsletter</a> di OpenProject.
             taken_domain: Puoi avere solo una prova attiva per ogni dominio.
             domain_mismatch: Il nome host della richiesta attuale non corrisponde al nome host configurato. Controlla le impostazioni di sistema.
             taken_email: Ogni utente può creare solo una prova.
@@ -371,7 +371,7 @@ it:
       warning: "Sei pregato di non condividerlo con altri utenti. Chiunque abbia questo link potrà visualizzare i dettagli del pacchetto di lavoro senza un profilo o una password."
       token_name_label: "Dove lo userai?"
       token_name_placeholder: 'Digita un nome, ad esempio "Telefono"'
-      token_name_description_text: 'Se ti iscrivi a questo calendario da più dispositivi, questo nome ti aiuterà a distinguerli nel tuo elenco di <a href="my/access_token", target="_blank">token di accesso</a>.'
+      token_name_description_text: 'Se ti iscrivi a questo calendario da più dispositivi, questo nome ti aiuterà a distinguerli nel tuo elenco di <a href="my/access_token", target="_self">token di accesso</a>.'
       copy_url_label: "Copia URL"
       ical_generation_error_text: "Si è verificato un errore nella creazione dell'URL del calendario."
       success_message: 'L''URL "%{name}" è stato copiato con successo negli appunti. Incollalo nel tuo client di calendario per completare l''iscrizione.'
@@ -667,7 +667,7 @@ it:
         date_alert: "Avviso data"
         shared: "Condiviso"
       settings:
-        change_notification_settings: 'Puoi modificare le tue <a target="_blank" href="%{url}">impostazioni di notifica</a> per assicurarti di non perderti mai un aggiornamento importante.'
+        change_notification_settings: 'Puoi modificare le tue <a target="_self" href="%{url}">impostazioni di notifica</a> per assicurarti di non perderti mai un aggiornamento importante.'
         title: "Impostazioni notifiche"
         notify_me: "Avvisami"
         reminders:
@@ -1246,7 +1246,7 @@ it:
           title: "Utente segnaposto"
           title_no_ee: "Utente del segnaposto (funzionalità solo dell'edizione Enterprise)"
           description: "Non ha accesso al progetto e non è inviata alcuna email."
-          description_no_ee: 'Non ha accesso al progetto e non è inviata alcuna email. <br>Dai un''occhiata all''<a href="%{eeHref}" target="_blank">edizione Enterprise</a>'
+          description_no_ee: 'Non ha accesso al progetto e non è inviata alcuna email. <br>Dai un''occhiata all''<a href="%{eeHref}" target="_self">edizione Enterprise</a>'
       principal:
         label:
           name_or_email: "Nome o indirizzo email"
@@ -1266,7 +1266,7 @@ it:
         label: "Ruolo in %{project}"
         no_roles_found: "Nessun ruolo è stato trovato"
         description: >-
-          Questo è il ruolo che l'utente riceverà una volta unitosi al progetto. Il ruolo definisce che azioni possono intraprendere e che informazioni possono vedere. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Scopri di più sui ruoli e sulle autorizzazioni. </a>
+          Questo è il ruolo che l'utente riceverà una volta unitosi al progetto. Il ruolo definisce che azioni possono intraprendere e che informazioni possono vedere. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Scopri di più sui ruoli e sulle autorizzazioni. </a>
         required: "Sei pregato di selezionare un ruolo"
         next_button: "Prossimo"
       message:

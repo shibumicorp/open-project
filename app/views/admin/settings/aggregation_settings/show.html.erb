@@ -41,7 +41,7 @@ See COPYRIGHT and LICENSE files for more details.
       <%= t(:'admin.journal_aggregation.explanation.text',
             webhook_link: link_to(t(:'admin.journal_aggregation.explanation.link'),
                                   admin_outgoing_webhooks_path,
-                                  target: '_blank')).html_safe %>
+                                  target: '_self')).html_safe %>
       <br/>
       <%= t(:text_hint_disable_with_0) %>
     </span>

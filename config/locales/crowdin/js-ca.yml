@@ -208,7 +208,7 @@ ca:
             Et vam enviar un correu electrònic el %{date} a %{email}. Si us plau, comprova la teva safata d'entrada i fes clic a l'enllaç de confirmació per començar la prova de 14 dies.
           form:
             general_consent: >
-              Accepto les <a target="_blank" href="%{link_terms}">condicions de servei</a> i la <a target="_blank" href="%{link_privacy}">política de privacitat</a>.
+              Accepto les <a target="_self" href="%{link_terms}">condicions de servei</a> i la <a target="_self" href="%{link_privacy}">política de privacitat</a>.
             invalid_email: "Adreça de correu electrònic invàlida"
             label_company: "Empresa"
             label_first_name: "Nom"
@@ -218,7 +218,7 @@ ca:
             label_maximum_users: "Nombre màxim d'usuaris actius"
             label_starts_at: "Comença el"
             label_expires_at: "Caduca el"
-            receive_newsletter: Vull rebre el <a target="_blank" href="%{link}">butlletí de notícies</a> d'OpenProject.
+            receive_newsletter: Vull rebre el <a target="_self" href="%{link}">butlletí de notícies</a> d'OpenProject.
             taken_domain: Només hi pot haver una prova gratuïta activa per domini.
             domain_mismatch: El nom d'allotjament proveït no coincideix amb el nom d'allotjament configurat. Si us plau, valida la teva configuració de sistema.
             taken_email: Cada usuari només pot crear una prova gratuïta.
@@ -371,7 +371,7 @@ ca:
       warning: "Please don't share this URL with other users. Anyone with this link will be able to view work package details without an account or password."
       token_name_label: "Where will you be using this?"
       token_name_placeholder: 'Type a name, e.g. "Phone"'
-      token_name_description_text: 'If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href="my/access_token", target="_blank">access tokens</a> list.'
+      token_name_description_text: 'If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href="my/access_token", target="_self">access tokens</a> list.'
       copy_url_label: "Copia l'URL"
       ical_generation_error_text: "An error occured while generating the calendar URL."
       success_message: 'The URL "%{name}" was successfully copied to your clipboard. Paste it in your calendar client to complete the subscription.'
@@ -667,7 +667,7 @@ ca:
         date_alert: "Alerta per dates"
         shared: "Shared"
       settings:
-        change_notification_settings: 'Pots modificar la teva <a target="_blank" href="%{url}">configuració de notificacions</a> per assegurar-te que mai et perds informació important.'
+        change_notification_settings: 'Pots modificar la teva <a target="_self" href="%{url}">configuració de notificacions</a> per assegurar-te que mai et perds informació important.'
         title: "Configuració de notificacions"
         notify_me: "Notifica’m"
         reminders:
@@ -1246,7 +1246,7 @@ ca:
           title: "Usuari de marcador de posició"
           title_no_ee: "Usuari de marcador de posició (extensió només de l'edició Enterprise)"
           description: "No té accés al projecte i no s'han enviat els correus electrònics."
-          description_no_ee: 'No tens accés al projecte i per tant, no s''han enviat els correus electrònics. <br>Fes una ullada a <a href="%{eeHref}" target="_blank">l''edició Enterprise</a>'
+          description_no_ee: 'No tens accés al projecte i per tant, no s''han enviat els correus electrònics. <br>Fes una ullada a <a href="%{eeHref}" target="_self">l''edició Enterprise</a>'
       principal:
         label:
           name_or_email: "Nom o adreça de correu electrònic"
@@ -1266,7 +1266,7 @@ ca:
         label: "Rol en %{project}"
         no_roles_found: "No s'ha trobat cap rol"
         description: >-
-          Aquest és el rol que l'usuari rebrà quan s'uneixin al teu projecte. El rol defineix quines accions els hi són permeses i quina informació poden veure. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Més informació sobre rols i permisos. </a>
+          Aquest és el rol que l'usuari rebrà quan s'uneixin al teu projecte. El rol defineix quines accions els hi són permeses i quina informació poden veure. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Més informació sobre rols i permisos. </a>
         required: "Si us plau, selecciona un rol"
         next_button: "Següent"
       message:

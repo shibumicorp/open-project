@@ -1495,7 +1495,7 @@ zh-CN:
   error_can_not_delete_in_use_archived_undisclosed: "归档项目中也有工作包。您需要请求管理员执行删除操作，以了解受影响的项目。"
   error_can_not_delete_in_use_archived_work_packages: "归档项目中也有工作包。您需要先重新激活以下项目，然后才能更改相应工作包的属性：%{archived_projects_urls}"
   error_can_not_delete_type:
-    explanation: '此类型包含工作包，无法删除。您可以在<a target="_blank" href="%{url}">此视图</a>中查看所有受影响的工作包。'
+    explanation: '此类型包含工作包，无法删除。您可以在<a target="_self" href="%{url}">此视图</a>中查看所有受影响的工作包。'
   error_can_not_delete_standard_type: "标准类型不能被删除。"
   error_can_not_invite_user: "无法向用户发送邀请。"
   error_can_not_remove_role: "该角色正在使用，无法删除。"
@@ -1649,11 +1649,11 @@ zh-CN:
         file_links_journal: >
           从现在开始，与文件链接（存储在外部存储器中的文件）相关的活动将出现在“活动”选项卡中。以下是与已经存在的链接相关的活动的表示：
         progress_calculation_adjusted_from_disabled_mode: >-
-          进度计算自动<a href="%{href}" target="_blank">设置为基于工时的模式，并随版本更新而调整</a>。
+          进度计算自动<a href="%{href}" target="_self">设置为基于工时的模式，并随版本更新而调整</a>。
         progress_calculation_adjusted: >-
-          进度计算自动<a href="%{href}" target="_blank">设置为基于工时的模式，并随版本更新而调整</a>。
+          进度计算自动<a href="%{href}" target="_self">设置为基于工时的模式，并随版本更新而调整</a>。
         totals_removed_from_childless_work_packages: >-
-          使用 <a href="%{href}" target="_blank">版本更新</a>的非父工作包的工作和进度总计自动移除。 这是一个维护任务，可以安全地被忽略。
+          使用 <a href="%{href}" target="_self">版本更新</a>的非父工作包的工作和进度总计自动移除。 这是一个维护任务，可以安全地被忽略。
   links:
     configuration_guide: "配置指南"
     get_in_touch: "遇到问题了？与我们联系。"
@@ -1688,7 +1688,7 @@ zh-CN:
         disabled_text: "管理员未启用 API 令牌。请联系管理员以使用此功能。"
       ical:
         title: "iCalendar"
-        text_hint: 'iCalendar 令牌允许用户<a href="%{path}" target="_blank">订阅 OpenProject 日历</a>并查看外部客户端中的最新工作包信息。'
+        text_hint: 'iCalendar 令牌允许用户<a href="%{path}" target="_self">订阅 OpenProject 日历</a>并查看外部客户端中的最新工作包信息。'
         disabled_text: "管理员未启用 iCalendar 订阅。请联系管理员以使用此功能。"
         empty_text_hint: "要添加 iCalendar 令牌，请从项目的日历模块中订阅新的或现有日历。您必须拥有必要的权限。"
       oauth:
@@ -2552,7 +2552,7 @@ zh-CN:
   notice_successful_delete: "成功删除。"
   notice_successful_update: "成功更新。"
   notice_successful_update_custom_fields_added_to_project: |
-    更新成功。已激活类型的自定义字段在工作包表单上自动激活。<a href="%{url}" target="_blank">了解详情</a>。
+    更新成功。已激活类型的自定义字段在工作包表单上自动激活。<a href="%{url}" target="_self">了解详情</a>。
   notice_successful_update_custom_fields_added_to_type: |
     更新成功。会为此类型的关联项目自动激活有效的自定义字段。
   notice_to_many_principals_to_display: "搜索结果数量过多。\n请键入新成员 (或组) 的名字来缩小搜索范围。"
@@ -2842,7 +2842,7 @@ zh-CN:
   setting_apiv3_cors_enabled: "启用 CORS"
   setting_apiv3_cors_origins: "API v3 跨域资源共享 (CORS) 允许的域"
   setting_apiv3_cors_origins_text_html: >
-    如果启用了 CORS ，这些是允许访问 OpenProject API 的源。<br/>请查看<a href="%{origin_link}" target="_blank">有关“源”标题的文档</a>，了解如何指定预期值。
+    如果启用了 CORS ，这些是允许访问 OpenProject API 的源。<br/>请查看<a href="%{origin_link}" target="_self">有关“源”标题的文档</a>，了解如何指定预期值。
   setting_apiv3_write_readonly_attributes: "对只读属性的写访问权限"
   setting_apiv3_write_readonly_attributes_instructions_html: >
     如果启用，API 将允许管理员在创建时写入静态只读属性，如 createdAt 和 author。 <br/> <strong>警告：</strong>此设置的用例包括导入数据，但允许管理员冒充其他用户创建项目。不过，所有创建请求都将以真实作者的身份记录。 </br> 有关属性和支持资源的更多信息，请参阅 %{api_documentation_link}。
@@ -2852,7 +2852,7 @@ zh-CN:
   setting_apiv3_docs: "文档"
   setting_apiv3_docs_enabled: "启用文档页面"
   setting_apiv3_docs_enabled_instructions_html: >
-    如果启用了文档页面，您可以在此 <a href="%{link}" target="_blank">%{link}</a> 获得 API v3 文档的交互式视图。
+    如果启用了文档页面，您可以在此 <a href="%{link}" target="_self">%{link}</a> 获得 API v3 文档的交互式视图。
   setting_attachment_whitelist: "附件上传白名单"
   setting_email_delivery_method: "电子邮件发送方法"
   setting_emails_salutation: "电子邮件中的用户地址"
@@ -3008,7 +3008,7 @@ zh-CN:
       first_date_of_week_and_year_set: >
         如果设置了选项“%{day_of_week_setting_name}”或“%{first_week_setting_name}”，则另一个选项也必须设置，以避免前端出现不一致。
       first_week_of_year_text_html: >
-        选择在当年第一周包含的 1 月份日期。此值与该周的第一天共同决定了一年中的总周数。有关详情，请参阅关于此主题的<a href="%{link}" target="_blank">文档</a>。
+        选择在当年第一周包含的 1 月份日期。此值与该周的第一天共同决定了一年中的总周数。有关详情，请参阅关于此主题的<a href="%{link}" target="_self">文档</a>。
     experimental:
       save_confirmation: 注意！数据存在丢失风险！只有在您不介意破坏 OpenProject 安装并丢失其所有数据的情况下，才激活实验性功能。
       warning_toast: 功能标志是激活仍在开发中的功能的设置。它们只能用于测试目的。切勿在拥有重要数据的 OpenProject 安装中激活它们。这些功能很可能会破坏您的数据。请自行承担使用它们所带来的风险。
@@ -3022,7 +3022,7 @@ zh-CN:
         type: "整行按类型"
         priority: "整行按优先级"
     icalendar:
-      enable_subscriptions_text_html: 允许具有必要权限的用户通过外部日历客户端订阅 OpenProject 日历并访问工作包信息。<strong>注意</strong>：在启用此功能之前，请阅读关于 <a href="%{link}" target="_blank">iCalendar 订阅</a>的信息以了解潜在的安全风险。
+      enable_subscriptions_text_html: 允许具有必要权限的用户通过外部日历客户端订阅 OpenProject 日历并访问工作包信息。<strong>注意</strong>：在启用此功能之前，请阅读关于 <a href="%{link}" target="_self">iCalendar 订阅</a>的信息以了解潜在的安全风险。
     language_name_being_default: "%{language_name}（默认）"
     notifications:
       events_explanation: "管理针对哪些事件发送电子邮件。此列表中不含工作包，因为可以为每位用户专门配置针对工作包的通知。"

@@ -57,7 +57,7 @@ module Storages::Admin::ManagedProjectFolders
         Primer::Beta::Link.new(
           href: Storages::Peripherals::StorageInteraction::Nextcloud::Util.join_uri_path(@storage.host,
                                                                                          "settings/admin/openproject"),
-          target: "_blank"
+          target: "_self"
         )
       ) { I18n.t("storages.instructions.#{@storage.short_provider_type}.integration") }
     end

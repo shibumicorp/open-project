@@ -13,7 +13,7 @@
             flex.with_column(mr: 2, flex: 1, classes: 'ellipsis') do
               render(Primer::Beta::Link.new(href: work_package_path(@meeting_agenda_item.work_package), underline: false,
                                             test_selector: 'op-meeting-agenda-title',
-                                            font_size: :normal, font_weight: :bold, target: "_blank")) do
+                                            font_size: :normal, font_weight: :bold, target: "_self")) do
                 @meeting_agenda_item.work_package.subject
               end
             end

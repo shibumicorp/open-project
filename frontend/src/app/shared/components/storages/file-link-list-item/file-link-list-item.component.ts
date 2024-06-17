@@ -252,7 +252,7 @@ export class FileLinkListItemComponent implements OnInit, OnChanges, AfterViewIn
       'folder-open',
       this.text.title.openFileLocation,
       undefined,
-      { url: this.fileLink._links.staticOriginOpenLocation.href, target: '_blank' },
+      { url: this.fileLink._links.staticOriginOpenLocation.href, target: '_self' },
     );
   }
 }

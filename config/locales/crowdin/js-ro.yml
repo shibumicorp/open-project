@@ -207,7 +207,7 @@ ro:
             Ți-am trimis un e-mail pe %{date} către %{email}. Vă rugăm să vă verificați căsuța de e-mail și să faceți clic pe link-ul de confirmare furnizat pentru a începe perioada de probă de 14 zile.
           form:
             general_consent: >
-              Sunt de acord cu <a target="_blank" href="%{link_terms}">termenii serviciului</a> și cu <a target="_blank" href="%{link_privacy}">politica de confidențialitate</a>.
+              Sunt de acord cu <a target="_self" href="%{link_terms}">termenii serviciului</a> și cu <a target="_self" href="%{link_privacy}">politica de confidențialitate</a>.
             invalid_email: "Adresă email invalidă"
             label_company: "Companie"
             label_first_name: "Prenume"
@@ -217,7 +217,7 @@ ro:
             label_maximum_users: "Număr maxim de utilizatori activi"
             label_starts_at: "Începe de la"
             label_expires_at: "Expiră la"
-            receive_newsletter: Doresc să primesc <a target="_blank" href="%{link}">buletinul informativ</a> OpenProject.
+            receive_newsletter: Doresc să primesc <a target="_self" href="%{link}">buletinul informativ</a> OpenProject.
             taken_domain: Nu poate exista decât un singur proces activ pe domeniu.
             domain_mismatch: Numele de gazdă al solicitării curente nu se potrivește cu numele de gazdă configurat. Vă rugăm să verificați de două ori setările sistemului.
             taken_email: Fiecare utilizator poate crea doar o singură încercare.
@@ -370,7 +370,7 @@ ro:
       warning: "Please don't share this URL with other users. Anyone with this link will be able to view work package details without an account or password."
       token_name_label: "Where will you be using this?"
       token_name_placeholder: 'Type a name, e.g. "Phone"'
-      token_name_description_text: 'If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href="my/access_token", target="_blank">access tokens</a> list.'
+      token_name_description_text: 'If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href="my/access_token", target="_self">access tokens</a> list.'
       copy_url_label: "Copy URL"
       ical_generation_error_text: "An error occured while generating the calendar URL."
       success_message: 'The URL "%{name}" was successfully copied to your clipboard. Paste it in your calendar client to complete the subscription.'
@@ -667,7 +667,7 @@ ro:
         date_alert: "Alertă de dată"
         shared: "Shared"
       settings:
-        change_notification_settings: 'Puteți modifica setările <a target="_blank" href="%{url}">de notificare</a> pentru a vă asigura că nu pierdeți niciodată o actualizare importantă.'
+        change_notification_settings: 'Puteți modifica setările <a target="_self" href="%{url}">de notificare</a> pentru a vă asigura că nu pierdeți niciodată o actualizare importantă.'
         title: "Setări de notificare"
         notify_me: "Anunta-ma"
         reminders:
@@ -1268,7 +1268,7 @@ ro:
         label: "Rolul în %{project}"
         no_roles_found: "Nu au fost găsite roluri"
         description: >-
-          This is the role that the user will receive when they join your project. Rolul definește acțiunile pe care utilizatorul are voie să le întreprindă și informațiile pe care le poate vedea. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Aflați mai multe despre roluri și permisiuni. </a>
+          This is the role that the user will receive when they join your project. Rolul definește acțiunile pe care utilizatorul are voie să le întreprindă și informațiile pe care le poate vedea. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Aflați mai multe despre roluri și permisiuni. </a>
         required: "Vă rugăm să selectați un rol"
         next_button: "Înainte"
       message:

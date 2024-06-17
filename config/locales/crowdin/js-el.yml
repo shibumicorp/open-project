@@ -207,7 +207,7 @@ el:
             Σας στείλαμε ένα email στο %{date} στο %{email}. Παρακαλούμε ελέγξτε τα εισερχόμενά σας και κάντε κλικ στον σύνδεσμο επιβεβαίωσης που παρέχεται για να ξεκινήσετε τη δοκιμή 14 ημερών.
           form:
             general_consent: >
-              Συμφωνώ με τους <a target="_blank" href="%{link_terms}">όρους χρήσης</a> και με την <a target="_blank" href="%{link_privacy}">πολιτική απορρήτου</a>.
+              Συμφωνώ με τους <a target="_self" href="%{link_terms}">όρους χρήσης</a> και με την <a target="_self" href="%{link_privacy}">πολιτική απορρήτου</a>.
             invalid_email: "Μη έγκυρη διεύθυνση email"
             label_company: "Εταιρεία"
             label_first_name: "Όνομα"
@@ -217,7 +217,7 @@ el:
             label_maximum_users: "Μέγιστοι ενεργοί χρήστες"
             label_starts_at: "Αρχίζει στις"
             label_expires_at: "Λήγει στις"
-            receive_newsletter: Θέλω να λαμβάνω το <a target="_blank" href="%{link}">ενημερωτικό δελτίο</a> του OpenProject.
+            receive_newsletter: Θέλω να λαμβάνω το <a target="_self" href="%{link}">ενημερωτικό δελτίο</a> του OpenProject.
             taken_domain: Μπορεί να υπάρχει μόνο μια ενεργή δοκιμαστική συνδρομή ανά τομέα.
             domain_mismatch: The current request host name does not match the configured host name. Please double check your system settings.
             taken_email: Κάθε χρήστης μπορεί να δημιουργήσει μόνο μία δοκιμαστική συνδρομή.
@@ -370,7 +370,7 @@ el:
       warning: "Please don't share this URL with other users. Anyone with this link will be able to view work package details without an account or password."
       token_name_label: "Where will you be using this?"
       token_name_placeholder: 'Type a name, e.g. "Phone"'
-      token_name_description_text: 'If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href="my/access_token", target="_blank">access tokens</a> list.'
+      token_name_description_text: 'If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href="my/access_token", target="_self">access tokens</a> list.'
       copy_url_label: "Copy URL"
       ical_generation_error_text: "An error occured while generating the calendar URL."
       success_message: 'The URL "%{name}" was successfully copied to your clipboard. Paste it in your calendar client to complete the subscription.'
@@ -666,7 +666,7 @@ el:
         date_alert: "Date alert"
         shared: "Shared"
       settings:
-        change_notification_settings: 'You can modify your <a target="_blank" href="%{url}">notification settings</a> to ensure you never miss an important update.'
+        change_notification_settings: 'You can modify your <a target="_self" href="%{url}">notification settings</a> to ensure you never miss an important update.'
         title: "Notification settings"
         notify_me: "Notify me"
         reminders:
@@ -1245,7 +1245,7 @@ el:
           title: "Placeholder χρήστης"
           title_no_ee: "Placeholder user (Enterprise edition only add-on)"
           description: "Has no access to the project and no emails are sent out."
-          description_no_ee: 'Has no access to the project and no emails are sent out. <br>Check out the <a href="%{eeHref}" target="_blank">Enterprise edition</a>'
+          description_no_ee: 'Has no access to the project and no emails are sent out. <br>Check out the <a href="%{eeHref}" target="_self">Enterprise edition</a>'
       principal:
         label:
           name_or_email: "Όνομα ή διεύθυνση email"
@@ -1265,7 +1265,7 @@ el:
         label: "Ρόλος στο %{project}"
         no_roles_found: "Δεν βρέθηκε κανένας ρόλος"
         description: >-
-          This is the role that the user will receive when they join your project. The role defines which actions they are allowed to take and which information they are allowed to see. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Learn more about roles and permissions. </a>
+          This is the role that the user will receive when they join your project. The role defines which actions they are allowed to take and which information they are allowed to see. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Learn more about roles and permissions. </a>
         required: "Παρακαλούμε επιλέξτε ένα ρόλο"
         next_button: "Επόμενο"
       message:

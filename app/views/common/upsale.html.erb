@@ -43,7 +43,7 @@
     <%= link_to(OpenProject::Static::Links.links[:contact_us][:href],
                 { class: 'button',
                   aria: {label: t('admin.enterprise.buttons.contact')},
-                  target: '_blank',
+                  target: '_self',
                   title: t('admin.enterprise.buttons.contact')}) do %>
       <span class="button--text"><%= t('admin.enterprise.buttons.contact') %></span>
     <% end %>
@@ -51,7 +51,7 @@
     <%= link_to(OpenProject::Static::Links.links[:pricing][:href],
                 { class: 'button -primary',
                   aria: {label: t('admin.enterprise.buttons.upgrade')},
-                  target: '_blank',
+                  target: '_self',
                   title: t('admin.enterprise.buttons.upgrade')}) do %>
       <%= spot_icon('enterprise-addons') %>
       <span class="button--text"><%= t('admin.enterprise.buttons.upgrade') %></span>

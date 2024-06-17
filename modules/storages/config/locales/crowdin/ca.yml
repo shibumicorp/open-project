@@ -126,7 +126,7 @@ ca:
       host: Si us plau, afegeix l'adreça d'allotjament del teu emmagatzematge incloent el https://. No pot més llarg de 255 caràcters.
       managed_project_folders_application_password_caption: 'Enable automatic managed folders by copying this value from: %{provider_type_link}.'
       name: Dona un nom al teu emmagatzematge per tal que els usuaris el puguin diferenciar d'altres.
-      new_storage: Read our documentation on <a target='_blank' href='%{provider_link}'>setting up a %{provider_name} file storage</a> integration for more information.
+      new_storage: Read our documentation on <a target='_self' href='%{provider_link}'>setting up a %{provider_name} file storage</a> integration for more information.
       nextcloud:
         application_link_text: application “Integration OpenProject”
         integration: Administració Nextcloud / OpenProject

@@ -135,7 +135,7 @@ RSpec.describe OpenProject::TextFormatting,
                   <td>
                     <ul class="op-uc-list_task-list op-uc-list">
                       <li>
-                        <a class="op-uc-link" target="_top" href="https://example.com/">
+                        <a class="op-uc-link" target="_self" href="https://example.com/">
                           <label class="op-uc-list__label">
                             <input type="checkbox" disabled="disabled">
                             <span class="op-uc-list__label__description">asdfasd</span>
@@ -217,7 +217,7 @@ RSpec.describe OpenProject::TextFormatting,
                         <ul class="op-uc-list_task-list op-uc-list">
                           <li class="op-uc-list--item">
                             <input type="checkbox" class="op-uc-list--task-checkbox" disabled>
-                            <a class="op-uc-link" target="_top" href="https://example.com/" rel="noopener noreferrer">
+                            <a class="op-uc-link" target="_self" href="https://example.com/" rel="noopener noreferrer">
                               <span>asdfasd</span>
                               <span> asdf</span>
                             </a>
@@ -285,7 +285,7 @@ RSpec.describe OpenProject::TextFormatting,
                           <input type="checkbox" disabled="disabled">
                           <span class="op-uc-list__label__description">asdfasdfasdf </span>
                         </label>
-                        <a class="op-uc-link" target="_top" href="https://example.com/">
+                        <a class="op-uc-link" target="_self" href="https://example.com/">
                           <label class="op-uc-list__label">
                             <span class="op-uc-list__label__description">foobar</span>
                           </label>
@@ -316,7 +316,7 @@ RSpec.describe OpenProject::TextFormatting,
                           <li class="op-uc-list--item">
                             <input type="checkbox" class="op-uc-list--task-checkbox" disabled>
                             <span>asdfasdfasdf </span>
-                            <a class="op-uc-link" href="https://example.com/" target="_top" rel="noopener noreferrer">
+                            <a class="op-uc-link" href="https://example.com/" target="_self" rel="noopener noreferrer">
                               <span>foobar</span>
                             </a>
                           </li>

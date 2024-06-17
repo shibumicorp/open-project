@@ -1499,7 +1499,7 @@ zh-TW:
   error_can_not_delete_in_use_archived_undisclosed: "There are also work packages in archived projects. You need to ask an administrator to perform the deletion to see which projects are affected."
   error_can_not_delete_in_use_archived_work_packages: "There are also work packages in archived projects. You need to reactivate the following projects first, before you can change the attribute of the respective work packages: %{archived_projects_urls}"
   error_can_not_delete_type:
-    explanation: 'This type contains work packages and cannot be deleted. You can see all affected work packages in <a target="_blank" href="%{url}">this view</a>.'
+    explanation: 'This type contains work packages and cannot be deleted. You can see all affected work packages in <a target="_self" href="%{url}">this view</a>.'
   error_can_not_delete_standard_type: "標準類型無法刪除"
   error_can_not_invite_user: "無法向用戶發送邀請。"
   error_can_not_remove_role: "這個角色正在使用中，無法刪除。"
@@ -1653,11 +1653,11 @@ zh-TW:
         file_links_journal: >
           From now on, activity related to file links (files stored in external storages) will appear here in the Activity tab. The following represent activity concerning links that already existed:
         progress_calculation_adjusted_from_disabled_mode: >-
-          自動計算進度<a href="%{href}" target="_blank">設定為「Work-based」模式並隨著版本更新進行調整</a>。
+          自動計算進度<a href="%{href}" target="_self">設定為「Work-based」模式並隨著版本更新進行調整</a>。
         progress_calculation_adjusted: >-
-          自動計算進度<a href="%{href}" target="_blank">隨版本更新調整</a>。
+          自動計算進度<a href="%{href}" target="_self">隨版本更新調整</a>。
         totals_removed_from_childless_work_packages: >-
-          Work and progress totals automatically removed for non-parent work packages with <a href="%{href}" target="_blank">version update</a>. This is a maintenance task and can be safely ignored.
+          Work and progress totals automatically removed for non-parent work packages with <a href="%{href}" target="_self">version update</a>. This is a maintenance task and can be safely ignored.
   links:
     configuration_guide: "設定指南"
     get_in_touch: "如有任何問題，歡迎聯繫我們"
@@ -1692,7 +1692,7 @@ zh-TW:
         disabled_text: "API tokens are not enabled by the administrator. Please contact your administrator to use this feature."
       ical:
         title: "iCalendar "
-        text_hint: 'iCalendar 權杖(Token)允許使用者<a href="%{path}" target="_blank">訂閱專案管理系統日曆</a>，並查看來自外部客戶端的最新工作資訊。'
+        text_hint: 'iCalendar 權杖(Token)允許使用者<a href="%{path}" target="_self">訂閱專案管理系統日曆</a>，並查看來自外部客戶端的最新工作資訊。'
         disabled_text: "管理員未啟用 iCalendar 訂閱。 請聯絡您的管理員以使用此功能。"
         empty_text_hint: "新增 iCalendar 權杖(Token)，可訂閱各專案裡面的日曆( 需擁有相關權限)。"
       oauth:
@@ -2558,7 +2558,7 @@ zh-TW:
   notice_successful_update: "更新成功"
   notice_successful_update_custom_fields_added_to_project: |
     Successful update. The custom fields of the activated types are automatically activated
-    on the work package form. <a href="%{url}" target="_blank">See more</a>.
+    on the work package form. <a href="%{url}" target="_self">See more</a>.
   notice_successful_update_custom_fields_added_to_type: |
     Successful update. The active custom fields are automatically activated for
     the associated projects of this type.
@@ -2851,7 +2851,7 @@ zh-TW:
   setting_apiv3_cors_enabled: "啟用 CORS"
   setting_apiv3_cors_origins: "CROSS-ORIGIN RESOURCE SHARING (CORS)"
   setting_apiv3_cors_origins_text_html: >
-    If CORS is enabled, these are the origins that are allowed to access OpenProject API. <br/> Please check the <a href="%{origin_link}" target="_blank">Documentation on the Origin header</a> on how to specify the expected values.
+    If CORS is enabled, these are the origins that are allowed to access OpenProject API. <br/> Please check the <a href="%{origin_link}" target="_self">Documentation on the Origin header</a> on how to specify the expected values.
   setting_apiv3_write_readonly_attributes: "Write access to read-only attributes"
   setting_apiv3_write_readonly_attributes_instructions_html: >
     If enabled, the API will allow administrators to write static read-only attributes during creation, such as createdAt and author. <br/> <strong>Warning:</strong> This setting has a use-case for e.g., importing data, but allows administrators to impersonate the creation of items as other users. All creation requests are being logged however with the true author. </br> For more information on attributes and supported resources, please see the %{api_documentation_link}.
@@ -2861,7 +2861,7 @@ zh-TW:
   setting_apiv3_docs: "說明文件"
   setting_apiv3_docs_enabled: "啟用文件頁面"
   setting_apiv3_docs_enabled_instructions_html: >
-    如果啟用了文件頁面，您可以在 <a href="%{link}" target="_blank">%{link}</a> 下看到互動式 APIv3 文件
+    如果啟用了文件頁面，您可以在 <a href="%{link}" target="_self">%{link}</a> 下看到互動式 APIv3 文件
   setting_attachment_whitelist: "附件上傳白名單"
   setting_email_delivery_method: "電子郵件傳輸通訊協定"
   setting_emails_salutation: "郵件稱呼"
@@ -3017,7 +3017,7 @@ zh-TW:
       first_date_of_week_and_year_set: >
         If either options "%{day_of_week_setting_name}" or "%{first_week_setting_name}" are set, the other has to be set as well to avoid inconsistencies in the frontend.
       first_week_of_year_text_html: >
-        選擇一年第一週的一月日期。 該值可確定一年中的總週數。 有關更多信息，請參閱 <a href="%{link}" target="_blank">相關文件</a> 。
+        選擇一年第一週的一月日期。 該值可確定一年中的總週數。 有關更多信息，請參閱 <a href="%{link}" target="_self">相關文件</a> 。
     experimental:
       save_confirmation: Caution! Risk of data loss! Only activate experimental features if you do not mind breaking your OpenProject installation and losing all of its data.
       warning_toast: Feature flags are settings that activate features that are still under development. They shall only be used for testing purposes. They shall never be activated on OpenProject installations holding important data. These features will very likely corrupt your data. Use them at your own risk.
@@ -3031,7 +3031,7 @@ zh-TW:
         type: "依工作項目類型區分"
         priority: "依工作項目優先順序區分"
     icalendar:
-      enable_subscriptions_text_html: 允許有相關權限用戶通過外部日曆客戶端訂閱 OpenProject 日曆並存取工作項目訊息。<strong>注意</strong>：在啓用此功能之前，請閱讀關於 <a href="%{link}" target="_blank">iCalendar 訂閱</a>的信息以瞭解潛在的安全風險。
+      enable_subscriptions_text_html: 允許有相關權限用戶通過外部日曆客戶端訂閱 OpenProject 日曆並存取工作項目訊息。<strong>注意</strong>：在啓用此功能之前，請閱讀關於 <a href="%{link}" target="_self">iCalendar 訂閱</a>的信息以瞭解潛在的安全風險。
     language_name_being_default: "%{language_name} (預設)"
     notifications:
       events_explanation: "控制已發送電子郵件事件。工作項目不包括在此列表中，因為可以為每個用戶專門配置它們的通知"

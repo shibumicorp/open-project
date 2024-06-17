@@ -56,7 +56,7 @@ const featureTeaserImage = `${OpVersionI18n}_features.svg`;
           [src]="new_features_image"/>
       </div>
 
-      <a [href]="teaserWebsiteUrl" target="_blank">{{ text.learnAbout }}</a>
+      <a [href]="teaserWebsiteUrl" target="_self">{{ text.learnAbout }}</a>
     </div>
   `,
   selector: homescreenNewFeaturesBlockSelector,

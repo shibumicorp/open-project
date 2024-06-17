@@ -11,7 +11,7 @@
     <a *ngIf="user.id"
        [href]="pathHelper.userPath(user.id)"
        [textContent]="user.name"
-       target="_blank">
+       target="_self">
     </a>
     <span *ngIf="!user.id"
       [textContent]="user.name">

@@ -126,7 +126,7 @@ uk:
       host: Додайте адресу хосту для свого сховища, включно з https://. Її довжина не може перевищувати 255 символів.
       managed_project_folders_application_password_caption: 'Увімкніть папки з автоматичним керуванням, скопіювавши це значення з %{provider_type_link}.'
       name: Назвіть своє сховище, щоб користувачі могли відрізняти його від інших сховищ.
-      new_storage: Щою дізнатися більше, ознайомтеся з нашою документацією щодо <a target='_blank' href='%{provider_link}'>налаштування інтеграції файлового сховища %{provider_name}</a>.
+      new_storage: Щою дізнатися більше, ознайомтеся з нашою документацією щодо <a target='_self' href='%{provider_link}'>налаштування інтеграції файлового сховища %{provider_name}</a>.
       nextcloud:
         application_link_text: Integration OpenProject
         integration: Адміністрування Nextcloud / OpenProject

@@ -208,7 +208,7 @@ cs:
             Poslali jsme Vám e-mail od %{date} do %{email}. Zkontrolujte prosím svou doručenou poštu a klikněte na odkaz pro potvrzení poskytnutý pro zahájení čtrnáctidenního zkušebního období.
           form:
             general_consent: >
-              Souhlasím s <a target="_blank" href="%{link_terms}">podmínkami služby</a> a <a target="_blank" href="%{link_privacy}">zásadami ochrany osobních údajů</a>.
+              Souhlasím s <a target="_self" href="%{link_terms}">podmínkami služby</a> a <a target="_self" href="%{link_privacy}">zásadami ochrany osobních údajů</a>.
             invalid_email: "Neplatná e-mailová adresa"
             label_company: "Společnost"
             label_first_name: "Křestní jméno"
@@ -218,7 +218,7 @@ cs:
             label_maximum_users: "Maximální počet aktivních uživatelů"
             label_starts_at: "Začíná v"
             label_expires_at: "Vyprší v"
-            receive_newsletter: Chci dostávat<a target="_blank" href="%{link}">newsletter OpenProject</a>.
+            receive_newsletter: Chci dostávat<a target="_self" href="%{link}">newsletter OpenProject</a>.
             taken_domain: V každé doméně může být pouze jedna aktivní zkušební verze.
             domain_mismatch: Aktuální název hostitele se neshoduje s nakonfigurovaným názvem hostitele. Zkontrolujte prosím nastavení systému.
             taken_email: Každý uživatel může vytvořit pouze jednu zkušební verzi.
@@ -370,7 +370,7 @@ cs:
       warning: "Prosím, nesdílejte tuto URL s ostatními uživateli. Kdokoli s tímto odkazem bude moci zobrazit podrobnosti o pracovním balíčku bez účtu nebo hesla."
       token_name_label: "Kde to použijete?"
       token_name_placeholder: 'Zadejte jméno, např. "Telefon"'
-      token_name_description_text: 'Pokud se přihlásíte k odběru tohoto kalendáře z více zařízení, toto jméno vám pomůže rozlišit mezi nimi v seznamu <a href="my/access_token", target="_blank">přístupových tokenů</a>.'
+      token_name_description_text: 'Pokud se přihlásíte k odběru tohoto kalendáře z více zařízení, toto jméno vám pomůže rozlišit mezi nimi v seznamu <a href="my/access_token", target="_self">přístupových tokenů</a>.'
       copy_url_label: "Kopírovat URL"
       ical_generation_error_text: "Při generování adresy URL kalendáře došlo k chybě."
       success_message: 'URL "%{name}" byla úspěšně zkopírována do vaší schránky. Vložte ji do vašeho klienta kalendáře pro dokončení odběru.'
@@ -668,7 +668,7 @@ cs:
         date_alert: "Upozornění na datum"
         shared: "Sdílené"
       settings:
-        change_notification_settings: 'Můžete změnit nastavení <a target="_blank" href="%{url}">oznámení</a> , abyste se ujistili, že nikdy nezmeškáte důležitou aktualizaci.'
+        change_notification_settings: 'Můžete změnit nastavení <a target="_self" href="%{url}">oznámení</a> , abyste se ujistili, že nikdy nezmeškáte důležitou aktualizaci.'
         title: "Nastavení oznámení"
         notify_me: "Upozornit mě"
         reminders:
@@ -1251,7 +1251,7 @@ cs:
           title: "placeholder uživatel"
           title_no_ee: "placeholder uživatel (pouze funkce Enterprise Edition)"
           description: "Nemá přístup k projektu a nejsou odesílány žádné e-maily."
-          description_no_ee: 'Nemá přístup k projektu a nejsou odeslány žádné e-maily. <br>Podívejte se na <a href="%{eeHref}" target="_blank">Enterprise Edition</a>'
+          description_no_ee: 'Nemá přístup k projektu a nejsou odeslány žádné e-maily. <br>Podívejte se na <a href="%{eeHref}" target="_self">Enterprise Edition</a>'
       principal:
         label:
           name_or_email: "Jméno nebo e-mailová adresa"
@@ -1271,7 +1271,7 @@ cs:
         label: "Role v %{project}"
         no_roles_found: "Nebyly nalezeny žádné role."
         description: >-
-          Toto je role, kterou uživatel obdrží, když se připojí k vašemu projektu. Role vymezuje, která změny mohou provádět a jaké informace mohou vidět. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Další informace o rolích a oprávněních. </a>
+          Toto je role, kterou uživatel obdrží, když se připojí k vašemu projektu. Role vymezuje, která změny mohou provádět a jaké informace mohou vidět. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Další informace o rolích a oprávněních. </a>
         required: "Vyberte prosím roli"
         next_button: "Další"
       message:

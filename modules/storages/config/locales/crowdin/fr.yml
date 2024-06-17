@@ -126,7 +126,7 @@ fr:
       host: Veuillez ajouter l'adresse d'hôte de votre stockage, y compris le https://. Il ne doit pas dépasser 255 caractères.
       managed_project_folders_application_password_caption: 'Activez les dossiers gérés automatiquement en copiant cette valeur depuis : %{provider_type_link}.'
       name: Donnez à votre stockage un nom pour que les utilisateurs puissent se différencier entre plusieurs stockages.
-      new_storage: Lisez notre documentation sur <a target='_blank' href='%{provider_link}'>la configuration d'une intégration avec %{provider_name} pour le stockage de fichiers </a> pour plus d'informations.
+      new_storage: Lisez notre documentation sur <a target='_self' href='%{provider_link}'>la configuration d'une intégration avec %{provider_name} pour le stockage de fichiers </a> pour plus d'informations.
       nextcloud:
         application_link_text: application « Intégration OpenProject»
         integration: Administration Nextcloud / OpenProject
@@ -232,7 +232,7 @@ fr:
       project_storage_members:
         subtitle: Vérifiez l'état de la connexion pour l'espace de stockage %{storage_name_link} de tous les membres du projet.
         title: Statut de connexion des membres
-    permission_header_explanation: Les droits d'accès aux fichiers sur les supports de stockage externes ne sont appliqués qu'aux dossiers et aux fichiers contenus dans les dossiers de projet gérés automatiquement. Notez que toutes les droits sur les fichiers ne sont pas pris en charge par tous les fournisseurs de stockage. Veuillez consulter la documentation sur <a target='_blank' href='https://www.openproject.org/fr/docs/system-admin-guide/users-permissions/roles-permissions/'>les autorisations de stockage de fichiers</a> pour plus d'informations.
+    permission_header_explanation: Les droits d'accès aux fichiers sur les supports de stockage externes ne sont appliqués qu'aux dossiers et aux fichiers contenus dans les dossiers de projet gérés automatiquement. Notez que toutes les droits sur les fichiers ne sont pas pris en charge par tous les fournisseurs de stockage. Veuillez consulter la documentation sur <a target='_self' href='https://www.openproject.org/fr/docs/system-admin-guide/users-permissions/roles-permissions/'>les autorisations de stockage de fichiers</a> pour plus d'informations.
     provider_types:
       label: Type de fournisseur
       nextcloud:

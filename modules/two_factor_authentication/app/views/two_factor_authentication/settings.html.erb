@@ -13,7 +13,7 @@
         <% configuration_link = OpenProject::Static::Links.links.fetch :configuration_guide %>
         <%= link_to t('two_factor_authentication.settings.text_configuration_guide'),
                     configuration_link[:href],
-                    target: '_blank' %>
+                    target: '_self' %>
       </p>
       <%= render(AttributeGroups::AttributeGroupComponent.new) do |component|
         component.with_attribute(key: t('two_factor_authentication.settings.label_active_strategies'),

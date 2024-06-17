@@ -126,7 +126,7 @@ pl:
       host: Proszę dodać adres hosta magazynu wraz z https://. Nie powinien być dłuższy niż 255 znaków.
       managed_project_folders_application_password_caption: 'Włącz automatycznie zarządzane foldery, kopiując tę wartość z: %{provider_type_link}.'
       name: Nazwij swój magazyn pamięci, aby użytkownicy mogli je rozróżniać, jeśli występuje ich wiele.
-      new_storage: Aby uzyskać więcej informacji, przeczytaj naszą dokumentację na temat <a target='_blank' href='%{provider_link}'>konfigurowania integracji magazynu plików %{provider_name}</a>.
+      new_storage: Aby uzyskać więcej informacji, przeczytaj naszą dokumentację na temat <a target='_self' href='%{provider_link}'>konfigurowania integracji magazynu plików %{provider_name}</a>.
       nextcloud:
         application_link_text: aplikacji „Integration OpenProject”
         integration: Administracja Nextcloud / OpenProject

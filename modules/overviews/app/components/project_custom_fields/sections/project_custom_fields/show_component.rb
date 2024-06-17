@@ -94,7 +94,7 @@ module ProjectCustomFields
           link = Addressable::URI.parse(href)
           return href unless link
 
-          target = link.host == Setting.host_without_protocol ? "_top" : "_blank"
+          target = link.host == Setting.host_without_protocol ? "_self" : "_self"
           render(Primer::Beta::Link.new(href:, rel: "noopener noreferrer", target:)) do
             href
           end

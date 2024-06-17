@@ -126,7 +126,7 @@ nl:
       host: Voeg het hostadres van je opslag toe, inclusief de https://. Het mag niet langer dan 255 tekens zijn.
       managed_project_folders_application_password_caption: 'Enable automatic managed folders by copying this value from: %{provider_type_link}.'
       name: Geef uw opslag een naam zodat gebruikers onderscheid kunnen maken tussen meerdere opslagplaatsen.
-      new_storage: Read our documentation on <a target='_blank' href='%{provider_link}'>setting up a %{provider_name} file storage</a> integration for more information.
+      new_storage: Read our documentation on <a target='_self' href='%{provider_link}'>setting up a %{provider_name} file storage</a> integration for more information.
       nextcloud:
         application_link_text: application “Integration OpenProject”
         integration: Nextcloud administratie / OpenProject

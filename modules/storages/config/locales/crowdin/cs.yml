@@ -126,7 +126,7 @@ cs:
       host: Přidejte prosím adresu hostitele vašeho úložiště obsahující https://. Nemělo by být delší než 255 znaků.
       managed_project_folders_application_password_caption: 'Povolit automatické spravování složek kopírováním této hodnoty z: %{provider_type_link}.'
       name: Dejte svému úložišti jméno, aby uživatelé mohli rozlišovat mezi více úložišti.
-      new_storage: Přečtěte si dokumentaci na <a target='_blank' href='%{provider_link}'>nastavení integrace %{provider_name} úložiště souborů</a> pro více informací.
+      new_storage: Přečtěte si dokumentaci na <a target='_self' href='%{provider_link}'>nastavení integrace %{provider_name} úložiště souborů</a> pro více informací.
       nextcloud:
         application_link_text: aplikace „Integration OpenProject“
         integration: Nextcloud Administrace / OpenProject

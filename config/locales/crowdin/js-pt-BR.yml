@@ -207,7 +207,7 @@ pt-BR:
             Enviamos um e-mail para %{email} em %{date}. Por favor, verifique sua caixa de entrada e clique no link de confirmação fornecido para iniciar seu teste de 14 dias.
           form:
             general_consent: >
-              Concordo com os <a target="_blank" href="%{link_terms}">termos do serviço</a> e com a <a target="_blank" href="%{link_privacy}">política de privacidade</a>.
+              Concordo com os <a target="_self" href="%{link_terms}">termos do serviço</a> e com a <a target="_self" href="%{link_privacy}">política de privacidade</a>.
             invalid_email: "Endereço de e-mail inválido"
             label_company: "Empresa"
             label_first_name: "Primeiro nome"
@@ -217,7 +217,7 @@ pt-BR:
             label_maximum_users: "Máximo de usuários ativos"
             label_starts_at: "Começa em"
             label_expires_at: "Expira em"
-            receive_newsletter: Quero receber o <a target="_blank" href="%{link}">boletim informativo</a> do OpenProject.
+            receive_newsletter: Quero receber o <a target="_self" href="%{link}">boletim informativo</a> do OpenProject.
             taken_domain: Pode haver somente uma avaliação ativa por domínio.
             domain_mismatch: O nome do host da solicitação atual não corresponde ao nome do host configurado. Verifique novamente as configurações de seu sistema.
             taken_email: Cada usuário pode criar somente uma avaliação.
@@ -370,7 +370,7 @@ pt-BR:
       warning: "Não compartilhe este URL com outros usuários. Qualquer pessoa com este link poderá visualizar os detalhes do pacote de trabalho sem uma conta ou senha."
       token_name_label: "Onde você usará isto?"
       token_name_placeholder: 'Digite um nome, por ex.: "Telefone"'
-      token_name_description_text: 'Se você assinar este calendário em vários dispositivos, este nome ajudará na distinção entre eles em sua lista de <a href="my/access_token", target="_blank">tokens de acesso</a>.'
+      token_name_description_text: 'Se você assinar este calendário em vários dispositivos, este nome ajudará na distinção entre eles em sua lista de <a href="my/access_token", target="_self">tokens de acesso</a>.'
       copy_url_label: "Copiar URL"
       ical_generation_error_text: "Ocorreu um erro ao gerar o URL do calendário."
       success_message: 'O URL "%{name}" foi copiado com sucesso para sua área de transferência. Cole-o em seu cliente de calendário para concluir a assinatura.'
@@ -666,7 +666,7 @@ pt-BR:
         date_alert: "Alerta de data"
         shared: "Compartilhado"
       settings:
-        change_notification_settings: 'Você pode modificar suas <a target="_blank" href="%{url}">configurações de notificação</a> para se certificar de nunca perder nenhuma atualização importante.'
+        change_notification_settings: 'Você pode modificar suas <a target="_self" href="%{url}">configurações de notificação</a> para se certificar de nunca perder nenhuma atualização importante.'
         title: "Configurações de notificação"
         notify_me: "Notifique-me"
         reminders:
@@ -1245,7 +1245,7 @@ pt-BR:
           title: "Usuário do espaço reservado"
           title_no_ee: "Usuário do espaço reservado (complemento apenas da edição Enterprise)"
           description: "Não possui acesso ao projeto e nenhum e-mail é enviado."
-          description_no_ee: 'Não possui acesso ao projeto e nenhum e-mail é enviado. <br>Confira a <a href="%{eeHref}" target="_blank">edição Enterprise</a>'
+          description_no_ee: 'Não possui acesso ao projeto e nenhum e-mail é enviado. <br>Confira a <a href="%{eeHref}" target="_self">edição Enterprise</a>'
       principal:
         label:
           name_or_email: "Nome ou endereço de e-mail"
@@ -1265,7 +1265,7 @@ pt-BR:
         label: "Papel em %{project}"
         no_roles_found: "Nenhum papel encontrado"
         description: >-
-          Esta é a função que o usuário receberá ao ingressar em seu projeto. A função define quais ações  podem ser realizadas e quais informações podem ser visualizadas. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Saiba mais sobre as funções e permissões. </a>
+          Esta é a função que o usuário receberá ao ingressar em seu projeto. A função define quais ações  podem ser realizadas e quais informações podem ser visualizadas. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Saiba mais sobre as funções e permissões. </a>
         required: "Selecione um papel"
         next_button: "Próxima"
       message:

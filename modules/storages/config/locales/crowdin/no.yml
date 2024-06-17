@@ -126,7 +126,7 @@
       host: Legg til vertsadressen til lagringsplassen din inkludert https://. Den bør ikke være lengre enn 255 tegn.
       managed_project_folders_application_password_caption: 'Aktiver automatisk håndterte mapper ved å kopiere denne verdien fra: %{provider_type_link}.'
       name: Gi lagringsstedet ditt et navn slik at brukere kan skille mellom flere lagringssteder.
-      new_storage: Les dokumentasjonen vår på <a target='_blank' href='%{provider_link}'>om å sette opp %{provider_name} fillagring</a> integrasjon for mer informasjon.
+      new_storage: Les dokumentasjonen vår på <a target='_self' href='%{provider_link}'>om å sette opp %{provider_name} fillagring</a> integrasjon for mer informasjon.
       nextcloud:
         application_link_text: applikasjon "Integrasjon OpenProject"
         integration: Nextcloud administrasjon / OpenProject

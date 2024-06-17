@@ -126,7 +126,7 @@ zh-CN:
       host: 请添加存储的主机地址，包括 https://。不应超过 255 个字符。
       managed_project_folders_application_password_caption: '通过从 %{provider_type_link} 复制该值来启用自动管理的文件夹。'
       name: 为您的存储命名，以便用户可以区分多个存储。
-      new_storage: 请阅读我们关于 <a target='_blank' href='%{provider_link}'> 设置 %{provider_name} 文件存储集成</a> 的文档以获取更多信息。
+      new_storage: 请阅读我们关于 <a target='_self' href='%{provider_link}'> 设置 %{provider_name} 文件存储集成</a> 的文档以获取更多信息。
       nextcloud:
         application_link_text: 应用“集成OpenProject”
         integration: Nextcloud 管理/OpenProject

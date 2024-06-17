@@ -49,7 +49,7 @@ module Storages::Admin::Forms
         data: { turbo_stream: true } }.tap do |options_hash|
         if storage.new_record?
           options_hash[:data][:turbo_stream] = false
-          options_hash[:target] = "_top" # Break out of Turbo Frame, follow full page redirect
+          options_hash[:target] = "_self" # Break out of Turbo Frame, follow full page redirect
         end
       end
     end
@@ -90,7 +90,7 @@ module Storages::Admin::Forms
     end
 
     def application_link_text_for(href, link_text)
-      render(Primer::Beta::Link.new(href:, target: "_blank")) { link_text }
+      render(Primer::Beta::Link.new(href:, target: "_self")) { link_text }
     end
   end
 end

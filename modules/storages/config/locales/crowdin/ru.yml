@@ -126,7 +126,7 @@ ru:
       host: Пожалуйста, добавьте адрес вашего хранилища, включая https://. Он не должен быть длиннее 255 символов.
       managed_project_folders_application_password_caption: 'Включите автоматические управляемые папки, копируя это значение из: %{provider_type_link}.'
       name: Дайте вашему хранилищу имя, чтобы пользователи могли различать между несколькими хранилищами.
-      new_storage: Прочтите нашу документацию по <a target='_blank' href='%{provider_link}'>настройке интеграции файлового хранилища %{provider_name}</a> для получения дополнительной информации.
+      new_storage: Прочтите нашу документацию по <a target='_self' href='%{provider_link}'>настройке интеграции файлового хранилища %{provider_name}</a> для получения дополнительной информации.
       nextcloud:
         application_link_text: Приложение «Интеграция OpenProject»
         integration: Администрирование NextCloud / OpenProject

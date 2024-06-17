@@ -435,7 +435,7 @@ RSpec.describe OpenProject::JournalFormatter::Cause do
       href = OpenProject::Static::Links.links[:blog_article_progress_changes][:href]
       expect(cause).to render_html_variant(
         "<strong>OpenProject system update:</strong> Progress calculation automatically " \
-        "<a href=\"#{href}\" target=\"_blank\">set to work-based mode and adjusted with version update</a>."
+        "<a href=\"#{href}\" target=\"_self\">set to work-based mode and adjusted with version update</a>."
       )
     end
 
@@ -459,7 +459,7 @@ RSpec.describe OpenProject::JournalFormatter::Cause do
       href = OpenProject::Static::Links.links[:blog_article_progress_changes][:href]
       expect(cause).to render_html_variant(
         "<strong>OpenProject system update:</strong> Progress calculation automatically " \
-        "<a href=\"#{href}\" target=\"_blank\">adjusted with version update</a>."
+        "<a href=\"#{href}\" target=\"_self\">adjusted with version update</a>."
       )
     end
 
@@ -495,7 +495,7 @@ RSpec.describe OpenProject::JournalFormatter::Cause do
       expect(cause).to render_html_variant(
         "<strong>OpenProject system update:</strong> Work and progress totals " \
         "automatically removed for non-parent work packages with " \
-        "<a href=\"#{href}\" target=\"_blank\">version update</a>. " \
+        "<a href=\"#{href}\" target=\"_selfk\">version update</a>. " \
         "This is a maintenance task and can be safely ignored."
       )
     end

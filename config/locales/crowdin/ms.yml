@@ -1498,7 +1498,7 @@ ms:
   error_can_not_delete_in_use_archived_undisclosed: "Terdapat juga pakej kerja dalam projek yang telah diarkibkan. Anda perlu meminta pentadbir untuk melaksanakan pemadaman untuk melihat projek yang mana akan terjejas."
   error_can_not_delete_in_use_archived_work_packages: "Terdapat juga pakej kerja dalam projek yang telah diarkibkan. Anda perlu mengaktifkan semula projek berikut dahulu, sebelum anda boleh mengubah atribut pakej kerja yang berkenaan: %{archived_projects_urls}"
   error_can_not_delete_type:
-    explanation: 'Jenis ini mengandungi pakej kerja dan tidak boleh dipadamkan. Anda boleh melihat semua pakej kerja yang terjejas dalam <a target="_blank" href="%{url}">paparan ini</a>.'
+    explanation: 'Jenis ini mengandungi pakej kerja dan tidak boleh dipadamkan. Anda boleh melihat semua pakej kerja yang terjejas dalam <a target="_self" href="%{url}">paparan ini</a>.'
   error_can_not_delete_standard_type: "Jenis standard tidak boleh dipadamkan."
   error_can_not_invite_user: "Gagal menghantar jemputan kepada pengguna."
   error_can_not_remove_role: "Peranan ini sedang digunakan dan tidak boleh dipadam."
@@ -1652,11 +1652,11 @@ ms:
         file_links_journal: >
           Mulai sekarang, aktiviti berkaitan dengan pautan fail (fail-fail yang disimpan di storan luaran) akan muncul dalam tab Aktiviti. Yang berikut mewakili aktiviti berkenaan pautan yang sudah sedia ada:
         progress_calculation_adjusted_from_disabled_mode: >-
-          Perkembangan pengiraan <a href="%{href}" target="_blank">ditetapkan ke mod berasaskan kerja secara automatik dan diselaraskan dengan versi kemas kini</a>.
+          Perkembangan pengiraan <a href="%{href}" target="_self">ditetapkan ke mod berasaskan kerja secara automatik dan diselaraskan dengan versi kemas kini</a>.
         progress_calculation_adjusted: >-
-          Perkembangan pengiraan <a href="%{href}" target="_blank"> diselaraskan dengan versi kemas kini</a>.
+          Perkembangan pengiraan <a href="%{href}" target="_self"> diselaraskan dengan versi kemas kini</a>.
         totals_removed_from_childless_work_packages: >-
-          Jumlah kerja dan perkembangan dipadam untuk pakej kerja bukan induk secara automatik dengan <a href="%{href}" target="_blank">versi kemas kini</a>. Ini ialah tugasan penyelenggaraan dan boleh diabaikan dengan selamat.
+          Jumlah kerja dan perkembangan dipadam untuk pakej kerja bukan induk secara automatik dengan <a href="%{href}" target="_self">versi kemas kini</a>. Ini ialah tugasan penyelenggaraan dan boleh diabaikan dengan selamat.
   links:
     configuration_guide: "Panduan konfigurasi"
     get_in_touch: "Anda mempunyai soalan? Sila hubungi kami."
@@ -1691,7 +1691,7 @@ ms:
         disabled_text: "Token API tidak didayakan oleh pentadbir. Sila hubungi pentadbir anda untuk menggunakan fitur ini."
       ical:
         title: "iCalendar"
-        text_hint: 'Token iCalendar membenarkan pengguna untuk <a href="%{path}" target="_blank">melanggan kalendar OpenProject</a> dan lihat maklumat pakej kerja terkini daripada pelanggan luaran.'
+        text_hint: 'Token iCalendar membenarkan pengguna untuk <a href="%{path}" target="_self">melanggan kalendar OpenProject</a> dan lihat maklumat pakej kerja terkini daripada pelanggan luaran.'
         disabled_text: "Langganan iCalendar tidak didayakan oleh pentadbir. Sila hubungi pentadbir anda untuk menggunakan fitur ini."
         empty_text_hint: "Untuk menambah token iCalendar, langgan kalendar baharu atau kalendar yang sedia ada dalam modul Kalendar projek. Anda perlu mempunyai kebenaran yang diperlukan."
       oauth:
@@ -2557,7 +2557,7 @@ ms:
   notice_successful_delete: "Pemadaman berjaya."
   notice_successful_update: "Kemas kini berjaya."
   notice_successful_update_custom_fields_added_to_project: |
-    Naik taraf berjaya. Jenis ruang tersuai yang aktif telah diaktifkan di borang pakej kerja secara automatik. <a href="%{url}" target="_blank">Lihat lebih lagi</a>.
+    Naik taraf berjaya. Jenis ruang tersuai yang aktif telah diaktifkan di borang pakej kerja secara automatik. <a href="%{url}" target="_self">Lihat lebih lagi</a>.
   notice_successful_update_custom_fields_added_to_type: |
     Naik taraf berjaya. Ruang tersuai yang aktif untuk projek yang berkaitan dengan jenis ini telah diaktifkan secara automatik.
   notice_to_many_principals_to_display: "Terlalu banyak hasil.\nSpesifikasikan pencarian dengan masukkan nama ahli baru (atau kumpulan)."
@@ -2849,7 +2849,7 @@ ms:
   setting_apiv3_cors_enabled: "Aktifkan CORS"
   setting_apiv3_cors_origins: "Asal yang dibenarkan Perkongsian Sumber Rentas Asal (CORS) API V3 "
   setting_apiv3_cors_origins_text_html: >
-    Jika CORS telah dibenarkan, ini ialah asal yang dibenarkan untuk mengakses API OpenProject. <br/> Sila semak dokumentasi <a href="%{origin_link}" target="_blank">di pengepala Asal </a> untuk cara nyatakan nilai-nilai yang dijangkakan.
+    Jika CORS telah dibenarkan, ini ialah asal yang dibenarkan untuk mengakses API OpenProject. <br/> Sila semak dokumentasi <a href="%{origin_link}" target="_self">di pengepala Asal </a> untuk cara nyatakan nilai-nilai yang dijangkakan.
   setting_apiv3_write_readonly_attributes: "Tulis akses pada atribut baca-sahaja"
   setting_apiv3_write_readonly_attributes_instructions_html: >
     Jika dibenarkan, API tersebut akan membenarkan para pentadbir untuk menulis atribut statik baca-sahaja semasa penciptaan, seperti diciptakanPada dan pengarang. <br/> <strong>Amaran:</strong> Tetapan ini mempunyai kes-guna untuk, cth., mengimport data, tetapi membenarkan para pentadbir untuk meniru penciptaan item sebagai pengguna lain. Walau bagaimanapun, semua permintaan penciptaan sedang dilog oleh pengarang sebenar. </br> Untuk maklumat lanjut tentang atribut dan sumber yang disokong, sila lihat %{api_documentation_link}.
@@ -2859,7 +2859,7 @@ ms:
   setting_apiv3_docs: "Dokumentasi"
   setting_apiv3_docs_enabled: "Benarkan halaman docs"
   setting_apiv3_docs_enabled_instructions_html: >
-    Jika halaman docs dibenarkan anda boleh mendapatkan paparan interaktif dokumentasi APIv3 dibawah <a href="%{link}" target="_blank">.
+    Jika halaman docs dibenarkan anda boleh mendapatkan paparan interaktif dokumentasi APIv3 dibawah <a href="%{link}" target="_self">.
   setting_attachment_whitelist: "Lampiran memuat naik senarai putih"
   setting_email_delivery_method: "Kaedah penghantaran e-mel"
   setting_emails_salutation: "Menggelar pengguna dalam e-mel dengan"
@@ -3015,7 +3015,7 @@ ms:
       first_date_of_week_and_year_set: >
         Jika pilihan sama ada"%{day_of_week_setting_name}" atau "%{first_week_setting_name}" telah ditetapkan, pilihan yang lain juga perlu ditetapkan untuk mengelakkan ketidakselarasan di bahagian muka depan.
       first_week_of_year_text_html: >
-        Pilih tarikh pada Januari yang mengandungi minggu pertama dari tahun tersebut. Nilai ini sekali dengan hari pertama dari minggu tersebut menentukan jumlah mingguan dalam setahun. Untuk maklumat lanjut, sila lihat <a href="%{link}" target="_blank">dokumentasi kami</a>bagi topik ini.
+        Pilih tarikh pada Januari yang mengandungi minggu pertama dari tahun tersebut. Nilai ini sekali dengan hari pertama dari minggu tersebut menentukan jumlah mingguan dalam setahun. Untuk maklumat lanjut, sila lihat <a href="%{link}" target="_self">dokumentasi kami</a>bagi topik ini.
     experimental:
       save_confirmation: Awas! Risiko kehilangan data! Hanyalah aktifkan fitur eksperimen jika anda tidak keberatan melanggar pemasangan OpenProject anda dan kehilangan kesemua datanya.
       warning_toast: Bendera fitur ialah tetapan yang mengaktifkan fitur yang masih dalam pembangunan. Ia hanyalah patut digunakan atas tujuan pemeriksaan. Ia tidak boleh diaktifkan pada pemasangan OpenProject yang memegang data penting. Fitur ini kemungkinan besar akan merosakkan data anda. Gunakannya dengan risiko anda sendiri.

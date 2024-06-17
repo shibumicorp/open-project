@@ -33,7 +33,7 @@ module OpenProject::TextFormatting
         links.each do |node|
           next if node["target"] || node["href"]&.start_with?("#")
 
-          node["target"] = context.fetch(:target, "_top")
+          node["target"] = context.fetch(:target, "_self")
         end
 
         doc

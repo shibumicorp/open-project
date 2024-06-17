@@ -72,7 +72,7 @@
             details.with_row(mt: 2) do
               if @meeting.location.include?("http")
                 render_meeting_attribute_row(:link) do
-                  render(Primer::Beta::Link.new(href: @meeting.location, target: "_blank")) do
+                  render(Primer::Beta::Link.new(href: @meeting.location, target: "_self")) do
                     render_truncated_location
                   end
                 end

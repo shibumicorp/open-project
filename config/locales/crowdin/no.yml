@@ -1532,7 +1532,7 @@
   error_can_not_delete_in_use_archived_undisclosed: "Det finnes også arbeidspakker i arkiverte prosjekter. Du må be en administrator om å gjennomføre slettingen for å se hvilke prosjekter som blir berørt."
   error_can_not_delete_in_use_archived_work_packages: "Det er også arbeidspakker i prosjekter som er arkivert. Du må reaktivere følgende prosjekter først, før du kan endre attributtet for de respektive arbeidspakkene: %{archived_projects_urls}"
   error_can_not_delete_type:
-    explanation: 'Denne typen inneholder arbeidspakker og kan ikke slettes. Du kan se alle berørte arbeidspakker i <a target="_blank" href="%{url}">denne visningen</a>.'
+    explanation: 'Denne typen inneholder arbeidspakker og kan ikke slettes. Du kan se alle berørte arbeidspakker i <a target="_self" href="%{url}">denne visningen</a>.'
   error_can_not_delete_standard_type: "Standardtyper kan ikke slettes."
   error_can_not_invite_user: "Kunne ikke sende invitasjon til bruker."
   error_can_not_remove_role: "Denne rollen er i bruk og kan ikke slettes."
@@ -1686,11 +1686,11 @@
         file_links_journal: >
           Fra nå av vil aktivitet knyttet til linker (filer lagret i eksterne lagringer) vises her i aktivitetsfanen. Følgende representerer aktivitet med lenker som allerede eksisterer:
         progress_calculation_adjusted_from_disabled_mode: >-
-          Fremdriftsberegning automatisk <a href="%{href}" target="_blank">satt til arbeidsbasert modus og justert med versjon</a>.
+          Fremdriftsberegning automatisk <a href="%{href}" target="_self">satt til arbeidsbasert modus og justert med versjon</a>.
         progress_calculation_adjusted: >-
-          Fremdriftsberegning automatisk <a href="%{href}" target="_blank">justert med versjon</a>.
+          Fremdriftsberegning automatisk <a href="%{href}" target="_self">justert med versjon</a>.
         totals_removed_from_childless_work_packages: >-
-          Arbeids- og fremdriftssummer fjernet automatisk for ikke-overordnede arbeidspakker med <a href="%{href}" target="_blank">-versjon</a>. Dette er en vedlikeholdsoppgave og kan trygt ignoreres.
+          Arbeids- og fremdriftssummer fjernet automatisk for ikke-overordnede arbeidspakker med <a href="%{href}" target="_self">-versjon</a>. Dette er en vedlikeholdsoppgave og kan trygt ignoreres.
   links:
     configuration_guide: "Konfigurasjonsveiviser"
     get_in_touch: "Har du spørsmål? Ta kontakt med oss."
@@ -1725,7 +1725,7 @@
         disabled_text: "API-nøkler er ikke aktivert av administratoren. Kontakt systemansvarlig for å bruke denne funksjonen."
       ical:
         title: "iCalendar"
-        text_hint: 'iCalendar nøkler tillater brukere <a href="%{path}" target="_blank"> å abbonnere på OpneProject kalendere og se oppdatert informasjon om arbeidspakker fra eskterne klienter.'
+        text_hint: 'iCalendar nøkler tillater brukere <a href="%{path}" target="_self"> å abbonnere på OpneProject kalendere og se oppdatert informasjon om arbeidspakker fra eskterne klienter.'
         disabled_text: "iCalendar-abonnement er ikke aktivert av administratoren. Vennligst kontakt systemansvarlig for å bruke denne funksjonen."
         empty_text_hint: "For å legge til et iCalendar-nøkkel, abonnér på en ny eller eksisterende kalender fra kalender-modulen til et prosjekt. Du må ha de nødvendige tillatelsene."
       oauth:
@@ -2593,7 +2593,7 @@
   notice_successful_update: "Oppdateringen var vellykket."
   notice_successful_update_custom_fields_added_to_project: |
     Vellykket oppdatering. Spesifikke felter for aktiverte typer blir automatisk aktivert
-    på arbeidspakkeskjema. <a href="%{url}" target="_blank">Se mer</a>.
+    på arbeidspakkeskjema. <a href="%{url}" target="_self">Se mer</a>.
   notice_successful_update_custom_fields_added_to_type: |
     Vellykket oppdatering. De aktive egendefinerte feltene aktiveres automatisk for
     de tilknyttede prosjektene av denne typen.
@@ -2887,7 +2887,7 @@
   setting_apiv3_cors_enabled: "Aktiver CORS"
   setting_apiv3_cors_origins: "API V3 Cross-Origin Resource Sharing (CORS) tillatte opprinnelser"
   setting_apiv3_cors_origins_text_html: >
-    Hvis CORS er aktivert, er dette opprinnelsen som har tilgang til OpenProject API. <br/> Kontroller <a href="%{origin_link}" target="_blank">Dokumentasjonen på Origin header</a> på hvordan angi de forventede verdiene.
+    Hvis CORS er aktivert, er dette opprinnelsen som har tilgang til OpenProject API. <br/> Kontroller <a href="%{origin_link}" target="_self">Dokumentasjonen på Origin header</a> på hvordan angi de forventede verdiene.
   setting_apiv3_write_readonly_attributes: "Skrivetilgang til skrivebeskyttede egenskaper"
   setting_apiv3_write_readonly_attributes_instructions_html: >
     Hvis aktivert, vil API-et tillate at administratorer skriver statiske skrivebeskyttede egenskaper under oppretting, som OpprettetPå og forfatter. <br/> <strong>Advarsel:</strong> Denne innstillingen har et brukstilfelle for f.eks importere data, men lar administratorer personliggjøre etableringen av elementer som andre brukere. Alle forespørsler om opprettelse blir imidlertid logget med virkelig forfatter. </br> For mer informasjon om egenskaper og støttede ressurser, se %{api_documentation_link}.
@@ -2897,7 +2897,7 @@
   setting_apiv3_docs: "Dokumentasjon"
   setting_apiv3_docs_enabled: "Aktiver dokumenter"
   setting_apiv3_docs_enabled_instructions_html: >
-    Hvis dokumenter er aktivert, kan du få en interaktiv visning av APIv3 dokumentasjonen under <a href="%{link}" target="_blank">%{link}</a>.
+    Hvis dokumenter er aktivert, kan du få en interaktiv visning av APIv3 dokumentasjonen under <a href="%{link}" target="_self">%{link}</a>.
   setting_attachment_whitelist: "Last opp hviteliste for vedlegg"
   setting_email_delivery_method: "Leveringsmetode for e-post"
   setting_emails_salutation: "Adresser bruker i e-post med"
@@ -3053,7 +3053,7 @@
       first_date_of_week_and_year_set: >
         Hvis enten alternativene "%{day_of_week_setting_name}" eller "%{first_week_setting_name}" er satt, må den andre settes i tillegg for å unngå avvik i frontend.
       first_week_of_year_text_html: >
-        Velg datoen for januar som ligger inne i den første uken av året. Denne verdien sammen med ukens første dag bestemmer totalt antall uker på ett år. For mer informasjon, se vår <a href="%{link}" target="_blank">dokumentasjon</a> på dette temaet.
+        Velg datoen for januar som ligger inne i den første uken av året. Denne verdien sammen med ukens første dag bestemmer totalt antall uker på ett år. For mer informasjon, se vår <a href="%{link}" target="_self">dokumentasjon</a> på dette temaet.
     experimental:
       save_confirmation: Forsiktig! Risiko for tap av data! Bare aktiver eksperimentelle funksjoner hvis du ikke er redd for å ødelegge OpenProject installasjonen og miste all dataene.
       warning_toast: Funksjonsflagg er innstillinger som aktiverer funksjoner som fortsatt er under utvikling. De skal bare brukes til testformål. De skal aldri aktiveres på OpenProject installasjoner som holder viktige data. Disse funksjonene vil sannsynligvis forstyrre dine data. Bruk dem på din egen risiko.
@@ -3067,7 +3067,7 @@
         type: "Hele raden etter type"
         priority: "Hele raden etter prioritet"
     icalendar:
-      enable_subscriptions_text_html: Tillater brukere med nødvendige tillatelser til å abonnere på OpenProject kalendere og få tilgang til arbeidspakkeinformasjon via en ekstern kalenderklient. <strong>Merk:</strong> Vennligst les <a href="%{link}" target="_blank">iCalendar-abonnementer</a> for å forstå potensielle sikkerhetsrisikoer før dette aktiveres.
+      enable_subscriptions_text_html: Tillater brukere med nødvendige tillatelser til å abonnere på OpenProject kalendere og få tilgang til arbeidspakkeinformasjon via en ekstern kalenderklient. <strong>Merk:</strong> Vennligst les <a href="%{link}" target="_self">iCalendar-abonnementer</a> for å forstå potensielle sikkerhetsrisikoer før dette aktiveres.
     language_name_being_default: "%{language_name} (standard)"
     notifications:
       events_explanation: "Styrer hvilket  arrangement det sendes ut en e-post til. Arbeidspakker er utelatt fra denne listen siden varsler for dem kan konfigureres spesifikt for hver bruker."

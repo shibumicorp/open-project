@@ -83,7 +83,7 @@ RSpec.describe OpenProject::TextFormatting,
         "Monthly coordination",
         { controller: "/meetings", action: "show", id: meeting.id, only_path: true },
         class: "meeting op-uc-link",
-        target: "_top"
+        target: "_self"
       )
     end
 

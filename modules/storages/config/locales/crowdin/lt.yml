@@ -126,7 +126,7 @@ lt:
       host: Prašome pridėti jūsų saugyklos stoties adresą, įskaitant https://. Jis turi būti ne ilgesnis už 255 simbolius.
       managed_project_folders_application_password_caption: 'Įjunkite automatiškai valdomus aplankus nukopijuodami šią reikšmę iš: %{provider_type_link}'
       name: Suteikite jūsų saugyklai pavadinimą, kad naudotojai galėtų atskirti tarp skirtingų saugyklų.
-      new_storage: Daugiau informacijos rasite mūsų dokumentacijoje apie  <a target='_blank' href='%{provider_link}'>%{provider_name} failų saugyklos nustatymą</a> ir integraciją.
+      new_storage: Daugiau informacijos rasite mūsų dokumentacijoje apie  <a target='_self' href='%{provider_link}'>%{provider_name} failų saugyklos nustatymą</a> ir integraciją.
       nextcloud:
         application_link_text: aplikacija „Integration OpenProject“
         integration: Nextclout Administravimas / OpenProject

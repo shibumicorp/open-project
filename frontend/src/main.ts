@@ -36,12 +36,54 @@ if (environment.production) {
   enableProdMode();
 }
 
+// Function to set target="_self" on all <a> elements
+function setLinkTargets() {
+  const links = document.querySelectorAll('a');
+  links.forEach(link => {
+    link.setAttribute('target', '_self');
+  });
+}
+
+// Use MutationObserver to monitor changes to the DOM
+function observeDOMChanges() {
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      if (mutation.type === 'childList') {
+        mutation.addedNodes.forEach((node) => {
+          if (node.nodeType === Node.ELEMENT_NODE) {
+            const element = node as HTMLElement;
+            if (element.tagName === 'A') {
+              element.setAttribute('target', '_self');
+            } else {
+              const links = element.querySelectorAll('a');
+              links.forEach(link => {
+                link.setAttribute('target', '_self');
+              });
+            }
+          }
+        });
+      }
+    });
+  });
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+}
+
 // Import the correct locale early on
 void initializeLocale()
   .then(() => {
     jQuery(() => {
       // Now that DOM is loaded, also run the global listeners
       initializeGlobalListeners();
+
+      // Set target="_self" for existing links
+      setLinkTargets();
+
+      // Observe DOM changes to set target="_self" for new links
+      observeDOMChanges();
 
       // Due to the behaviour of the Edge browser we need to wait for 'DOM ready'
       void platformBrowserDynamic()

@@ -126,7 +126,7 @@ ro:
       host: Vă rugăm să adăugați adresa de găzduire a spațiului de stocare, inclusiv https://. Nu trebuie să fie mai lungă de 255 de caractere.
       managed_project_folders_application_password_caption: 'Enable automatic managed folders by copying this value from: %{provider_type_link}.'
       name: Dați un nume stocării pentru ca utilizatorii să poată diferenția între mai multe spațiul de stocare.
-      new_storage: Read our documentation on <a target='_blank' href='%{provider_link}'>setting up a %{provider_name} file storage</a> integration for more information.
+      new_storage: Read our documentation on <a target='_self' href='%{provider_link}'>setting up a %{provider_name} file storage</a> integration for more information.
       nextcloud:
         application_link_text: application “Integration OpenProject”
         integration: Administrare Nextcloud / OpenProject

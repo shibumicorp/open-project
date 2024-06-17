@@ -208,7 +208,7 @@ pt-PT:
             Enviamos-lhe um email a %{date} para %{email}. Veja a sua caixa de correio e clique no link de confirmação fornecido para iniciar a sua avaliação de 14 dias.
           form:
             general_consent: >
-              Concordo com os <a target="_blank" href="%{link_terms}">termos do serviço</a> e com a <a target="_blank" href="%{link_privacy}">política de privacidade</a>.
+              Concordo com os <a target="_self" href="%{link_terms}">termos do serviço</a> e com a <a target="_self" href="%{link_privacy}">política de privacidade</a>.
             invalid_email: "Endereço de email inválido"
             label_company: "Empresa"
             label_first_name: "Primeiro nome"
@@ -218,7 +218,7 @@ pt-PT:
             label_maximum_users: "Máximo de utilizadores ativos"
             label_starts_at: "Começa em"
             label_expires_at: "Expira a"
-            receive_newsletter: Quero receber a <a target="_blank" href="%{link}">newsletter</a> do OpenProject.
+            receive_newsletter: Quero receber a <a target="_self" href="%{link}">newsletter</a> do OpenProject.
             taken_domain: Só pode haver um teste ativo por domínio.
             domain_mismatch: O nome de host da requisição atual não corresponde ao nome de host configurado. Verifique novamente as configurações do seu sistema.
             taken_email: Cada utilizador só pode criar uma avaliação.
@@ -371,7 +371,7 @@ pt-PT:
       warning: "Não partilhe este URL com outros utilizadores. Qualquer pessoa com este link poderá ver os detalhes do pacote de trabalho sem uma conta ou palavra-passe."
       token_name_label: "Onde irá utilizar isto?"
       token_name_placeholder: 'Escreva um nome, por exemplo, "Telefone"'
-      token_name_description_text: 'Se subscrever este calendário a partir de vários dispositivos, este nome irá ajudá-lo a distinguir entre eles na sua lista de <a href="my/access_token", target="_blank">tokens de acesso</a>.'
+      token_name_description_text: 'Se subscrever este calendário a partir de vários dispositivos, este nome irá ajudá-lo a distinguir entre eles na sua lista de <a href="my/access_token", target="_self">tokens de acesso</a>.'
       copy_url_label: "Copiar URL"
       ical_generation_error_text: "Ocorreu um erro ao gerar o URL do calendário."
       success_message: 'O URL "%{name}" foi copiado com sucesso para a área de transferência. Cole-o no seu cliente de calendário para concluir a subscrição.'
@@ -667,7 +667,7 @@ pt-PT:
         date_alert: "Alerta de data"
         shared: "Compartilhado"
       settings:
-        change_notification_settings: 'Pode modificar as suas <a target="_blank" href="%{url}">definições de notificações</a> para garantir que nunca perde uma atualização importante.'
+        change_notification_settings: 'Pode modificar as suas <a target="_self" href="%{url}">definições de notificações</a> para garantir que nunca perde uma atualização importante.'
         title: "Definições das notificações"
         notify_me: "Notificar-me"
         reminders:
@@ -1246,7 +1246,7 @@ pt-PT:
           title: "Utilizador de espaço reservado"
           title_no_ee: "Utilizador de espaço reservado (complemento apenas para a edição Enterprise)"
           description: "Não tem acesso ao projeto e nenhum e-mail é enviado."
-          description_no_ee: 'Não tem acesso ao projeto e nenhum e-mail é enviado. <br>Confira a <a href="%{eeHref}" target="_blank">edição Enterprise</a>'
+          description_no_ee: 'Não tem acesso ao projeto e nenhum e-mail é enviado. <br>Confira a <a href="%{eeHref}" target="_self">edição Enterprise</a>'
       principal:
         label:
           name_or_email: "Nome ou endereço de e-mail"
@@ -1266,7 +1266,7 @@ pt-PT:
         label: "Função em %{project}"
         no_roles_found: "Nenhuma função encontrada"
         description: >-
-          Esta é uma função que o utilizador vai receber quando se juntar ao projeto. A função define as ações que pode fazer e as informações que pode visualizar. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Aprenda mais sobre funções e permissões. </a>
+          Esta é uma função que o utilizador vai receber quando se juntar ao projeto. A função define as ações que pode fazer e as informações que pode visualizar. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Aprenda mais sobre funções e permissões. </a>
         required: "Selecione um perfil"
         next_button: "Próxima"
       message:

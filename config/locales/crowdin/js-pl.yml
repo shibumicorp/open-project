@@ -208,7 +208,7 @@ pl:
             Wysłaliśmy Ci wiadomość e-mail %{date} na adres %{email}. Sprawdź swoją skrzynkę odbiorczą i kliknij link potwierdzający, aby rozpocząć 14-dniowy okres próbny.
           form:
             general_consent: >
-              Przyjmuję <a target="_blank" href="%{link_terms}">warunki umowy</a> i <a target="_blank" href="%{link_privacy}">politykę prywatności</a>.
+              Przyjmuję <a target="_self" href="%{link_terms}">warunki umowy</a> i <a target="_self" href="%{link_privacy}">politykę prywatności</a>.
             invalid_email: "Nieprawidłowy adres e-mail"
             label_company: "Firma"
             label_first_name: "Imię"
@@ -218,7 +218,7 @@ pl:
             label_maximum_users: "Maksymalna liczba aktywnych użytkowników"
             label_starts_at: "Data rozpoczęcia"
             label_expires_at: "Wygasa"
-            receive_newsletter: Chcę otrzymywać <a target="_blank" href="%{link}">biuletyn </a> OpenProject.
+            receive_newsletter: Chcę otrzymywać <a target="_self" href="%{link}">biuletyn </a> OpenProject.
             taken_domain: W każdej domenie może być aktywna tylko jedna wersja próbna.
             domain_mismatch: Obecna nazwa hosta żądania nie pasuje do skonfigurowanej nazwy hosta. Sprawdź dokładnie ustawienia systemu.
             taken_email: Każdy użytkownik może utworzyć tylko jeden okres próbny.
@@ -371,7 +371,7 @@ pl:
       warning: "Nie udostępniaj tego adresu URL innym użytkownikom. Każda osoba mająca ten link będzie mogła wyświetlić szczegóły pakietu roboczego bez konieczności posiadania konta lub hasła."
       token_name_label: "Gdzie będziesz go używać?"
       token_name_placeholder: 'Wpisz nazwę, np. „Telefon”'
-      token_name_description_text: 'Jeśli subskrybujesz ten kalendarz na wielu urządzeniach, nazwa ta pomoże Ci rozróżnić je na liście <a href="my/access_token", target="_blank">tokenów dostępu</a>.'
+      token_name_description_text: 'Jeśli subskrybujesz ten kalendarz na wielu urządzeniach, nazwa ta pomoże Ci rozróżnić je na liście <a href="my/access_token", target="_self">tokenów dostępu</a>.'
       copy_url_label: "Kopiuj adres URL"
       ical_generation_error_text: "Podczas generowania adresu URL kalendarza wystąpił błąd."
       success_message: 'Adres URL „%{name}” został skopiowany do schowka. Wklej go w kliencie kalendarza, aby dokonać subskrypcji.'
@@ -669,7 +669,7 @@ pl:
         date_alert: "Data ostrzeżenia"
         shared: "Udostępniono"
       settings:
-        change_notification_settings: 'Możesz zmodyfikować <a target="_blank" href="%{url}">ustawienia powiadomień</a>, aby upewnić się, że nigdy nie przegapisz ważnej aktualizacji.'
+        change_notification_settings: 'Możesz zmodyfikować <a target="_self" href="%{url}">ustawienia powiadomień</a>, aby upewnić się, że nigdy nie przegapisz ważnej aktualizacji.'
         title: "Ustawienia powiadomień"
         notify_me: "Powiadom mnie"
         reminders:
@@ -1252,7 +1252,7 @@ pl:
           title: "Użytkownik zastępczy"
           title_no_ee: "Użytkownik zastępczy (dodatek dostępny tylko w wersji Enterprise)"
           description: "Nie ma dostępu do projektu i nie są wysyłane żadne wiadomości e-mail."
-          description_no_ee: 'Nie ma dostępu do projektu i żadne wiadomości e-mail nie są wysyłane. <br>Sprawdź <a href="%{eeHref}" target="_blank">wersję Enterprise</a>'
+          description_no_ee: 'Nie ma dostępu do projektu i żadne wiadomości e-mail nie są wysyłane. <br>Sprawdź <a href="%{eeHref}" target="_self">wersję Enterprise</a>'
       principal:
         label:
           name_or_email: "Nazwa lub adres e-mail"
@@ -1272,7 +1272,7 @@ pl:
         label: "Rola w %{project}"
         no_roles_found: "Nie znaleziono żadnych ról"
         description: >-
-          To jest rola, jaką użytkownik otrzyma po dołączeniu do projektu. Rola określa, jakie działania mogą zostać podjęte i jakie informacje będą widoczne. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Dowiedz się więcej o rolach i uprawnieniach. </a>
+          To jest rola, jaką użytkownik otrzyma po dołączeniu do projektu. Rola określa, jakie działania mogą zostać podjęte i jakie informacje będą widoczne. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Dowiedz się więcej o rolach i uprawnieniach. </a>
         required: "Wybierz rolę"
         next_button: "Następny"
       message:

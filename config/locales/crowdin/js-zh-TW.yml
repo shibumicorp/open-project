@@ -207,7 +207,7 @@ zh-TW:
             We sent you an email on %{date} to %{email}. Please check your inbox and click the confirmation link provided to start your 14 days trial.
           form:
             general_consent: >
-              I agree with the <a target="_blank" href="%{link_terms}">terms of service</a> and the <a target="_blank" href="%{link_privacy}">privacy policy</a>.
+              I agree with the <a target="_self" href="%{link_terms}">terms of service</a> and the <a target="_self" href="%{link_privacy}">privacy policy</a>.
             invalid_email: "無效的電子郵件"
             label_company: "公司"
             label_first_name: "名字"
@@ -217,7 +217,7 @@ zh-TW:
             label_maximum_users: "使用者帳號上限"
             label_starts_at: "開始於"
             label_expires_at: "過期於"
-            receive_newsletter: I want to receive the OpenProject <a target="_blank" href="%{link}">newsletter</a>.
+            receive_newsletter: I want to receive the OpenProject <a target="_self" href="%{link}">newsletter</a>.
             taken_domain: There can only be one active trial per domain.
             domain_mismatch: The current request host name does not match the configured host name. Please double check your system settings.
             taken_email: Each user can only create one trial.
@@ -370,7 +370,7 @@ zh-TW:
       warning: "Please don't share this URL with other users. Anyone with this link will be able to view work package details without an account or password."
       token_name_label: "Where will you be using this?"
       token_name_placeholder: 'Type a name, e.g. "Phone"'
-      token_name_description_text: 'If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href="my/access_token", target="_blank">access tokens</a> list.'
+      token_name_description_text: 'If you subscribe to this calendar from multiple devices, this name will help you distinguish between them in your <a href="my/access_token", target="_self">access tokens</a> list.'
       copy_url_label: "複製URL"
       ical_generation_error_text: "An error occured while generating the calendar URL."
       success_message: 'The URL "%{name}" was successfully copied to your clipboard. Paste it in your calendar client to complete the subscription.'
@@ -665,7 +665,7 @@ zh-TW:
         date_alert: "日期提醒"
         shared: "共享"
       settings:
-        change_notification_settings: '您可以修改 <a target="_blank" href="%{url}">通知設定</a>，以確保您不會錯過重要更新。'
+        change_notification_settings: '您可以修改 <a target="_self" href="%{url}">通知設定</a>，以確保您不會錯過重要更新。'
         title: "通知設定"
         notify_me: "通知我"
         reminders:
@@ -1242,7 +1242,7 @@ zh-TW:
           title: "虛擬群組"
           title_no_ee: "虛擬暫用群組（Enterprise edition 附加功能）"
           description: "Has no access to the project and no emails are sent out."
-          description_no_ee: '由於沒有存取專案權限，所以不會發送電子郵件。<br>請查看<a href="%{eeHref}" target="_blank">企業版</a>。'
+          description_no_ee: '由於沒有存取專案權限，所以不會發送電子郵件。<br>請查看<a href="%{eeHref}" target="_self">企業版</a>。'
       principal:
         label:
           name_or_email: "名稱或電子郵件地址"
@@ -1262,7 +1262,7 @@ zh-TW:
         label: "%{project} 中的角色"
         no_roles_found: "找不到角色。"
         description: >-
-          This is the role that the user will receive when they join your project. The role defines which actions they are allowed to take and which information they are allowed to see. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Learn more about roles and permissions. </a>
+          This is the role that the user will receive when they join your project. The role defines which actions they are allowed to take and which information they are allowed to see. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Learn more about roles and permissions. </a>
         required: "請選擇一個角色： "
         next_button: "下一個"
       message:

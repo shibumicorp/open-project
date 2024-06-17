@@ -127,7 +127,7 @@ en:
       host: Please add the host address of your storage including the https://. It should not be longer than 255 characters.
       managed_project_folders_application_password_caption: 'Enable automatic managed folders by copying this value from: %{provider_type_link}.'
       name: Give your storage a name so that users can differentiate between multiple storages.
-      new_storage: Read our documentation on <a target='_blank' href='%{provider_link}'>setting up a %{provider_name} file storage</a> integration for more information.
+      new_storage: Read our documentation on <a target='_self' href='%{provider_link}'>setting up a %{provider_name} file storage</a> integration for more information.
       nextcloud:
         application_link_text: application “Integration OpenProject”
         integration: Nextcloud Administration / OpenProject
@@ -235,7 +235,7 @@ en:
       project_storage_members:
         subtitle: Check the connection status for the storage %{storage_name_link} of all project members.
         title: Members connection status
-    permission_header_explanation: File permissions on external storages are applied only to folders and files within automatically managed project folders. Note that not all file permissions are supported by all storage providers. Please check the documentation on <a target='_blank' href='https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#file-storages-permissions'>file storage permissions</a> for more information.
+    permission_header_explanation: File permissions on external storages are applied only to folders and files within automatically managed project folders. Note that not all file permissions are supported by all storage providers. Please check the documentation on <a target='_self' href='https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#file-storages-permissions'>file storage permissions</a> for more information.
     provider_types:
       label: Provider type
       nextcloud:

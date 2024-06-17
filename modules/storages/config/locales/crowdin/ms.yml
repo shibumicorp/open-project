@@ -126,7 +126,7 @@ ms:
       host: Sila tambah alamat hos storan anda termasuk https://. Ia perlulah mengandungi tidak lebih daripada 255 patah perkataan.
       managed_project_folders_application_password_caption: 'Benarkan folder yang dikendalikan secara automatik dengan menyalin nilai ini daripada: %{provider_type_link}.'
       name: Berikan nama kepada storan anda supaya pengguna boleh membezakan ia dengan beberapa storan yang lain.
-      new_storage: Baca dokumentasi kami tentang <a target='_blank' href='%{provider_link}'>menyediakan integrasi storan fail %{provider_name} </a> untuk maklumat lanjut.
+      new_storage: Baca dokumentasi kami tentang <a target='_self' href='%{provider_link}'>menyediakan integrasi storan fail %{provider_name} </a> untuk maklumat lanjut.
       nextcloud:
         application_link_text: aplikasi "Intergrasi OpenProject"
         integration: Pentadbiran Nextcloud / OpenProject

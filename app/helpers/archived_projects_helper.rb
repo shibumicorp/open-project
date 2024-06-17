@@ -31,7 +31,7 @@ module ArchivedProjectsHelper
     urls = projects.map do |project|
       link_to project.name,
               projects_path(filters: archived_project_filters_for(project)),
-              target: "_blank",
+              target: "_self",
               rel: "noopener"
     end
 

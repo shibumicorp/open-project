@@ -208,7 +208,7 @@
             Vi har sendt deg en e-post  %{date} til %{email}. Sjekk innboksen og klikk på bekreftelseslenken du ga for å starte prøveperioden på 14 dager.
           form:
             general_consent: >
-              Jeg godtar <a target="_blank" href="%{link_terms}">sine vilkår for personvern</a> og <a target="_blank" href="%{link_privacy}">personvernregler</a>.
+              Jeg godtar <a target="_self" href="%{link_terms}">sine vilkår for personvern</a> og <a target="_self" href="%{link_privacy}">personvernregler</a>.
             invalid_email: "Ugyldig e-postadresse"
             label_company: "Firma"
             label_first_name: "Fornavn"
@@ -218,7 +218,7 @@
             label_maximum_users: "Maksimalt antall aktive brukere"
             label_starts_at: "Starter på"
             label_expires_at: "Utløper på"
-            receive_newsletter: Jeg vil motta OpenProject <a target="_blank" href="%{link}">nyhetsbrev</a>.
+            receive_newsletter: Jeg vil motta OpenProject <a target="_self" href="%{link}">nyhetsbrev</a>.
             taken_domain: Det kan kun være en aktiv prøveversjon per domene.
             domain_mismatch: Gjeldende forespørselsnavnet samsvarer ikke med det konfigurerte vertsnavnet. Vennligst dobbeltsjekk systeminnstillingene.
             taken_email: Hver bruker kan kun opprette en prøveversjon.
@@ -371,7 +371,7 @@
       warning: "Ikke del denne URL-adressen med andre brukere. Alle med denne lenken vil kunne se arbeidspakkedetaljer uten konto eller passord."
       token_name_label: "Hvor kommer du til å bruke dette?"
       token_name_placeholder: 'Skriv inn et navn, f.eks. "Telefon"'
-      token_name_description_text: 'Hvis du abonnerer på denne kalenderen fra flere enheter, vil dette navnet hjelpe deg med å skille dem fra i listen <a href="my/access_token", target="_blank">tilgangsnøkkel</a> listen.'
+      token_name_description_text: 'Hvis du abonnerer på denne kalenderen fra flere enheter, vil dette navnet hjelpe deg med å skille dem fra i listen <a href="my/access_token", target="_self">tilgangsnøkkel</a> listen.'
       copy_url_label: "Kopier URL"
       ical_generation_error_text: "Det oppstod en feil ved generering av kalenderURL."
       success_message: 'URL-adressen "%{name}" ble vellykket kopiert til utklippstavlen. Lim den inn i kalenderklienten for å fullføre abonnementet.'
@@ -667,7 +667,7 @@
         date_alert: "Dato varsel"
         shared: "Delt"
       settings:
-        change_notification_settings: 'Du kan endre <a target="_blank" href="%{url}">varslingsinnstillinger</a> for å sikre at du aldri går glipp av en viktig oppdatering.'
+        change_notification_settings: 'Du kan endre <a target="_self" href="%{url}">varslingsinnstillinger</a> for å sikre at du aldri går glipp av en viktig oppdatering.'
         title: "Varslingsinnstillinger"
         notify_me: "Gi meg beskjed"
         reminders:
@@ -1246,7 +1246,7 @@
           title: "Plassholder bruker"
           title_no_ee: "Midlertidig bruker (kun tillegg for Enterprise-utgave)"
           description: "Har ikke tilgang til prosjektet og ingen e-poster blir sendt ut."
-          description_no_ee: 'Har ikke tilgang til prosjektet og ingen e-poster har blitt sendt ut. <br>Sjekk ut <a href="%{eeHref}" target="_blank">Enterprise-utgaven</a>'
+          description_no_ee: 'Har ikke tilgang til prosjektet og ingen e-poster har blitt sendt ut. <br>Sjekk ut <a href="%{eeHref}" target="_self">Enterprise-utgaven</a>'
       principal:
         label:
           name_or_email: "Navn eller e-postadresse"
@@ -1266,7 +1266,7 @@
         label: "Rolle i %{project}"
         no_roles_found: "Ingen roller ble funnet"
         description: >-
-          Dette er rollen brukeren vil få når de blir med i prosjektet. Rollen definerer hvilke tiltak de har lov til å ta, og hvilken informasjon de har lov til å se. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> Lær mer om roller og tillatelser. </a>
+          Dette er rollen brukeren vil få når de blir med i prosjektet. Rollen definerer hvilke tiltak de har lov til å ta, og hvilken informasjon de har lov til å se. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> Lær mer om roller og tillatelser. </a>
         required: "Vennligst velg en rolle"
         next_button: "Neste"
       message:

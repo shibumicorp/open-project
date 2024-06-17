@@ -126,7 +126,7 @@ it:
       host: Aggiungi l'indirizzo host del tuo spazio di archiviazione incluso https://. Non dovrebbe essere più lungo di 255 caratteri.
       managed_project_folders_application_password_caption: 'Abilita le cartelle gestite automaticamente copiando questo valore da: %{provider_type_link}.'
       name: Dai al tuo archivio un nome in modo che gli utenti lo possano distinguere tra più archivi.
-      new_storage: Leggi la nostra documentazione <a target='_blank' href='%{provider_link}'>su come creare un'integrazione %{provider_name} di archiviazione file</a> per maggiori informazioni.
+      new_storage: Leggi la nostra documentazione <a target='_self' href='%{provider_link}'>su come creare un'integrazione %{provider_name} di archiviazione file</a> per maggiori informazioni.
       nextcloud:
         application_link_text: applicazione "Integrazione OpenProject"
         integration: Nextcloud Administration / OpenProject

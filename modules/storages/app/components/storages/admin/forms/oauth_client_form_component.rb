@@ -55,12 +55,12 @@ module Storages::Admin::Forms
 
     private
 
-    def one_drive_integration_link(target: "_blank")
+    def one_drive_integration_link(target: "_self")
       href = ::OpenProject::Static::Links[:storage_docs][:one_drive_oauth_application][:href]
       render(Primer::Beta::Link.new(href:, target:)) { I18n.t("storages.instructions.one_drive.application_link_text") }
     end
 
-    def nextcloud_integration_link(target: "_blank")
+    def nextcloud_integration_link(target: "_self")
       href = Storages::Peripherals::StorageInteraction::Nextcloud::Util
                .join_uri_path(storage.host, "settings/admin/openproject")
       render(Primer::Beta::Link.new(href:, target:)) { I18n.t("storages.instructions.nextcloud.integration") }

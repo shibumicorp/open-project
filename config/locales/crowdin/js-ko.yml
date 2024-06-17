@@ -208,7 +208,7 @@ ko:
             We sent you an email on %{date} to %{email}. Please check your inbox and click the confirmation link provided to start your 14 days trial.
           form:
             general_consent: >
-              <a target="_blank" href="%{link_terms}">서비스 약관</a> 및 <a target="_blank" href="%{link_privacy}">개인정보 취급방침</a>에 동의합니다.
+              <a target="_self" href="%{link_terms}">서비스 약관</a> 및 <a target="_self" href="%{link_privacy}">개인정보 취급방침</a>에 동의합니다.
             invalid_email: "잘못된 이메일 주소"
             label_company: "회사"
             label_first_name: "이름"
@@ -218,7 +218,7 @@ ko:
             label_maximum_users: "최대 활성 사용자"
             label_starts_at: "시작:"
             label_expires_at: "에서 만료됨"
-            receive_newsletter: OpenProject <a target="_blank" href="%{link}">뉴스레터</a>를 받아 보겠습니다.
+            receive_newsletter: OpenProject <a target="_self" href="%{link}">뉴스레터</a>를 받아 보겠습니다.
             taken_domain: 도메인당 하나의 활성 평가판만 있어야 합니다.
             domain_mismatch: 현재 요청 호스트 이름이 구성된 호스트 이름과 일치하지 않습니다. 시스템 설정을 다시 확인하세요.
             taken_email: 각 사용자는 하나의 평가판만 생성할 수 있습니다.
@@ -371,7 +371,7 @@ ko:
       warning: "다른 사용자와 이 URL을 공유하지 마세요. 이 링크가 있으면 누구든지 계정이나 암호 없이 작업 패키지 세부 정보를 볼 수 있습니다."
       token_name_label: "이 항목을 어디서 사용하실건가요?"
       token_name_placeholder: '이름을 입력하세요. 예: "휴대폰"'
-      token_name_description_text: '여러 장치에서 이 캘린더를 구독하는 경우 이 이름은 <a href="my/access_token", target="_blank">액세스 토큰</a> 목록에서 장치를 구분하는 데 도움이 됩니다.'
+      token_name_description_text: '여러 장치에서 이 캘린더를 구독하는 경우 이 이름은 <a href="my/access_token", target="_self">액세스 토큰</a> 목록에서 장치를 구분하는 데 도움이 됩니다.'
       copy_url_label: "URL 복사"
       ical_generation_error_text: "캘린더 URL을 생성하는 중에 오류가 발생했습니다."
       success_message: '"%{name}" URL이 클립보드에 복사되었습니다. 구독을 완료하려면 캘린더 클라이언트에 붙여넣으세요.'
@@ -666,7 +666,7 @@ ko:
         date_alert: "날짜 경보"
         shared: "공유됨"
       settings:
-        change_notification_settings: '중요 업데이트를 놓치지 않도록 <a target="_blank" href="%{url}">알림 설정</a>을 수정할 수 있습니다.'
+        change_notification_settings: '중요 업데이트를 놓치지 않도록 <a target="_self" href="%{url}">알림 설정</a>을 수정할 수 있습니다.'
         title: "알림 설정"
         notify_me: "알림 받기"
         reminders:
@@ -1243,7 +1243,7 @@ ko:
           title: "플레이스홀더 사용자"
           title_no_ee: "플레이스홀더 사용자(Enterprise Edition 전용 추가 기능)"
           description: "프로젝트에 대한 접근 권한이 없으며 이메일이 보내지지 않았습니다."
-          description_no_ee: '프로젝트에 대한 접근 권한이 없으며 이메일이 전송되지 않았습니다.<br><a href="%{eeHref}" target="_blank">Enterprise Edition</a>에 대해 알아 보세요.'
+          description_no_ee: '프로젝트에 대한 접근 권한이 없으며 이메일이 전송되지 않았습니다.<br><a href="%{eeHref}" target="_self">Enterprise Edition</a>에 대해 알아 보세요.'
       principal:
         label:
           name_or_email: "이름 또는 이메일 주소"
@@ -1263,7 +1263,7 @@ ko:
         label: "%{project} 내 역할"
         no_roles_found: "역할이 없습니다"
         description: >-
-          사용자가 프로젝트에 참여할 때 받게 되는 역할입니다. 역할은 수행할 수 있는 작업과 볼 수 있는 정보를 정의합니다. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_blank"> 역할과 권한에 대해 자세히 알아보세요. </a>
+          사용자가 프로젝트에 참여할 때 받게 되는 역할입니다. 역할은 수행할 수 있는 작업과 볼 수 있는 정보를 정의합니다. <a href="https://www.openproject.org/docs/system-admin-guide/users-permissions/roles-permissions/#roles-and-permissions" target="_self"> 역할과 권한에 대해 자세히 알아보세요. </a>
         required: "역할을 선택하십시오"
         next_button: "다음"
       message:

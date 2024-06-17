@@ -1530,7 +1530,7 @@ hu:
   error_can_not_delete_in_use_archived_undisclosed: "Az archivált projektekben is vannak munkacsomagok. Meg kell kérnie egy rendszergazdát, hogy végezze el a törlést, hogy lássa, mely projekteket érinti a törlés."
   error_can_not_delete_in_use_archived_work_packages: "Az archivált projektek szintén tartalmaznak munkacsomagokat. A következő projektek újra aktiválása szükséges, mielőtt a vonatkozó munkacsomagok típusát meg lehet változtatni: %{archived_projects_urls}"
   error_can_not_delete_type:
-    explanation: 'Ez a típus munkacsomagokat tartalmaz és nem törölhető. Az érintett munkacsomagok <a target="_blank" href="%{url}">ebben a nézetben</a> megtekinthetők.'
+    explanation: 'Ez a típus munkacsomagokat tartalmaz és nem törölhető. Az érintett munkacsomagok <a target="_self" href="%{url}">ebben a nézetben</a> megtekinthetők.'
   error_can_not_delete_standard_type: "Alap típusokat nem lehet törölni."
   error_can_not_invite_user: "A meghívó küldése sikertelen a felhasználó részére."
   error_can_not_remove_role: "Ez a szerepkör használatban van, nem lehet törölni"
@@ -1684,11 +1684,11 @@ hu:
         file_links_journal: >
           From now on, activity related to file links (files stored in external storages) will appear here in the Activity tab. The following represent activity concerning links that already existed:
         progress_calculation_adjusted_from_disabled_mode: >-
-          Progress calculation automatically <a href="%{href}" target="_blank">set to work-based mode and adjusted with version update</a>.
+          Progress calculation automatically <a href="%{href}" target="_self">set to work-based mode and adjusted with version update</a>.
         progress_calculation_adjusted: >-
-          Progress calculation automatically <a href="%{href}" target="_blank">adjusted with version update</a>.
+          Progress calculation automatically <a href="%{href}" target="_self">adjusted with version update</a>.
         totals_removed_from_childless_work_packages: >-
-          Work and progress totals automatically removed for non-parent work packages with <a href="%{href}" target="_blank">version update</a>. This is a maintenance task and can be safely ignored.
+          Work and progress totals automatically removed for non-parent work packages with <a href="%{href}" target="_self">version update</a>. This is a maintenance task and can be safely ignored.
   links:
     configuration_guide: "Konfigurációs útmutató"
     get_in_touch: "Kérdése van? Lépjen kapcsolatba velünk"
@@ -1723,7 +1723,7 @@ hu:
         disabled_text: "API tokens are not enabled by the administrator. Please contact your administrator to use this feature."
       ical:
         title: "iCalendar"
-        text_hint: 'iCalendar tokens allow users to <a href="%{path}" target="_blank">subscribe to OpenProject calendars</a> and view up-to-date work package information from external clients.'
+        text_hint: 'iCalendar tokens allow users to <a href="%{path}" target="_self">subscribe to OpenProject calendars</a> and view up-to-date work package information from external clients.'
         disabled_text: "iCalendar subscriptions are not enabled by the administrator. Please contact your administrator to use this feature."
         empty_text_hint: "To add an iCalendar token, subscribe to a new or existing calendar from within the Calendar module of a project. You must have the necessary permissions."
       oauth:
@@ -2590,7 +2590,7 @@ hu:
   notice_successful_update: "Sikeres frissítés."
   notice_successful_update_custom_fields_added_to_project: |
     Sikeres frissítés. Az aktivált típusok egyéni mezői automatikusan aktiválódnak
-    a munkacsomag űrlapon. <a href="%{url}" target="_blank">További információ</a>.
+    a munkacsomag űrlapon. <a href="%{url}" target="_self">További információ</a>.
   notice_successful_update_custom_fields_added_to_type: |
     Sikeres frissítés. Az aktív egyéni mezők automatikusan aktiválódnak
     az ilyen típusú kapcsolódó projektek.
@@ -2884,7 +2884,7 @@ hu:
   setting_apiv3_cors_enabled: "A CORS engedélyezése"
   setting_apiv3_cors_origins: "API V3 Cross-Origin Resource Sharing (CORS) engedélyezett származások"
   setting_apiv3_cors_origins_text_html: >
-    Ha a CORS engedélyezve van, ezek azok az eredetiek, amelyek hozzáférhetnek az OpenProject API-hoz. <br/> Kérjük, olvassa el a <a href="%{origin_link}" target="_blank">Dokumentáció az Origin fejlécről</a> című dokumentumot az elvárt értékek megadásáról.
+    Ha a CORS engedélyezve van, ezek azok az eredetiek, amelyek hozzáférhetnek az OpenProject API-hoz. <br/> Kérjük, olvassa el a <a href="%{origin_link}" target="_self">Dokumentáció az Origin fejlécről</a> című dokumentumot az elvárt értékek megadásáról.
   setting_apiv3_write_readonly_attributes: "Write access to read-only attributes"
   setting_apiv3_write_readonly_attributes_instructions_html: >
     If enabled, the API will allow administrators to write static read-only attributes during creation, such as createdAt and author. <br/> <strong>Warning:</strong> This setting has a use-case for e.g., importing data, but allows administrators to impersonate the creation of items as other users. All creation requests are being logged however with the true author. </br> For more information on attributes and supported resources, please see the %{api_documentation_link}.
@@ -2894,7 +2894,7 @@ hu:
   setting_apiv3_docs: "Dokumentáció"
   setting_apiv3_docs_enabled: "Dokumentumok oldal engedélyezése\n"
   setting_apiv3_docs_enabled_instructions_html: >
-    Ha a Dokumentumok oldal engedélyezve van, interaktív nézetet kaphat az APIv3 dokumentációjáról a <a href="%{link}" target="_blank">%{link} </a> alatt.
+    Ha a Dokumentumok oldal engedélyezve van, interaktív nézetet kaphat az APIv3 dokumentációjáról a <a href="%{link}" target="_self">%{link} </a> alatt.
   setting_attachment_whitelist: "Mellékletfeltöltési fehérlista"
   setting_email_delivery_method: "E-mail küldés módja"
   setting_emails_salutation: "Address user in emails with"
@@ -3050,7 +3050,7 @@ hu:
       first_date_of_week_and_year_set: >
         Ha a "%{day_of_week_setting_name}" vagy a "%{first_week_setting_name}" opciók közül valamelyik be van állítva, akkor a másiknak is be kell lennie, hogy elkerüljük az ellentmondásokat a frontendben.
       first_week_of_year_text_html: >
-        Select the date of January that is contained in the first week of the year. This value together with first day of the week determines the total number of weeks in a year. For more information, please see our <a href="%{link}" target="_blank">documentation</a> on this topic.
+        Select the date of January that is contained in the first week of the year. This value together with first day of the week determines the total number of weeks in a year. For more information, please see our <a href="%{link}" target="_self">documentation</a> on this topic.
     experimental:
       save_confirmation: Caution! Risk of data loss! Only activate experimental features if you do not mind breaking your OpenProject installation and losing all of its data.
       warning_toast: Feature flags are settings that activate features that are still under development. They shall only be used for testing purposes. They shall never be activated on OpenProject installations holding important data. These features will very likely corrupt your data. Use them at your own risk.
@@ -3064,7 +3064,7 @@ hu:
         type: "Teljes sor típus szerint"
         priority: "Teljes sor prioritás szerint"
     icalendar:
-      enable_subscriptions_text_html: Allows users with the necessary permissions to subscribe to OpenProject calendars and access work package information via an external calendar client. <strong>Note:</strong> Please read about <a href="%{link}" target="_blank">iCalendar subscriptions</a> to understand potential security risks before enabling this.
+      enable_subscriptions_text_html: Allows users with the necessary permissions to subscribe to OpenProject calendars and access work package information via an external calendar client. <strong>Note:</strong> Please read about <a href="%{link}" target="_self">iCalendar subscriptions</a> to understand potential security risks before enabling this.
     language_name_being_default: "%{language_name} (default)"
     notifications:
       events_explanation: "Azt szabályozza, hogy melyik eseményhez küldjön e -mailt. A munkacsomagok nem tartoznak ebbe a listába, mivel a rájuk vonatkozó értesítések kifejezetten minden felhasználó számára konfigurálhatók.\n"

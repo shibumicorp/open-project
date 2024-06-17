@@ -86,7 +86,7 @@ module Members
     def shared_work_packages_link
       link_to I18n.t(:label_x_work_packages, count: shared_work_packages_count),
               shared_work_packages_url,
-              target: "_blank",
+              target: "_self",
               rel: "noopener"
     end
 
@@ -103,7 +103,7 @@ module Members
     def all_shared_work_packages_link
       link_to I18n.t(:label_x_work_packages, count: all_shared_work_packages_count),
               all_shared_work_packages_url,
-              target: "_blank",
+              target: "_self",
               rel: "noopener"
     end
 
@@ -114,7 +114,7 @@ module Members
     def administration_settings_link
       link_to "administration settings",
               edit_user_path(model.principal, tab: :groups),
-              target: "_blank",
+              target: "_self",
               rel: "noopener"
     end
 

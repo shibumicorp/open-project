@@ -3,6 +3,6 @@
                       controller_path:,
                       **params.permit(:filters, :columns, :sortBy, :id, :query_id)
                     ),
-                    target: '_top',
+                    target: '_self',
                     data: { turbo: false },
                     loading: :lazy %>

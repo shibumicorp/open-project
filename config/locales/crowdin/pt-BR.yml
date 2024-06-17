@@ -1532,7 +1532,7 @@ pt-BR:
   error_can_not_delete_in_use_archived_undisclosed: "Também existem pacotes de trabalho em projetos arquivados. Você precisa pedir a um administrador para executar a exclusão para visualizar quais projetos são afetados."
   error_can_not_delete_in_use_archived_work_packages: "Também há pacotes de trabalho em projetos arquivados. Primeiro, você precisa reativar os seguintes projetos, antes de poder alterar o atributo dos respectivos pacotes de trabalho: %{archived_projects_urls}"
   error_can_not_delete_type:
-    explanation: 'Este tipo contém pacotes de trabalho e não pode ser excluído. Você pode ver todos os pacotes de trabalho afetados em <a target="_blank" href="%{url}">esta visão</a>.'
+    explanation: 'Este tipo contém pacotes de trabalho e não pode ser excluído. Você pode ver todos os pacotes de trabalho afetados em <a target="_self" href="%{url}">esta visão</a>.'
   error_can_not_delete_standard_type: "Tipos padrão não podem ser excluídos."
   error_can_not_invite_user: "Falhou ao enviar convite ao usuário."
   error_can_not_remove_role: "Este papel está em uso e não pode ser excluído."
@@ -1686,11 +1686,11 @@ pt-BR:
         file_links_journal: >
           A partir de agora, a atividade relacionada a links de arquivos (arquivos armazenados em armazenamentos externos) aparecerá aqui na guia Atividade. O seguinte representa a atividade relacionada aos links que já existiam:
         progress_calculation_adjusted_from_disabled_mode: >-
-          Cálculo de progresso automaticamente <a href="%{href}" target="_blank">definido para o modo com base em trabalho e ajustado com a atualização de versão</a>.
+          Cálculo de progresso automaticamente <a href="%{href}" target="_self">definido para o modo com base em trabalho e ajustado com a atualização de versão</a>.
         progress_calculation_adjusted: >-
-          Cálculo de progresso automaticamente <a href="%{href}" target="_blank"> ajustado com a atualização de versão</a>.
+          Cálculo de progresso automaticamente <a href="%{href}" target="_self"> ajustado com a atualização de versão</a>.
         totals_removed_from_childless_work_packages: >-
-          Os totais de trabalho e progresso foram removidos automaticamente para pacotes de trabalho que não são principais com a <a href="%{href}" target="_blank">atualização de versão</a>. Esta é uma tarefa de manutenção e pode ser ignorada com segurança.
+          Os totais de trabalho e progresso foram removidos automaticamente para pacotes de trabalho que não são principais com a <a href="%{href}" target="_self">atualização de versão</a>. Esta é uma tarefa de manutenção e pode ser ignorada com segurança.
   links:
     configuration_guide: "Guia de configuração"
     get_in_touch: "Com dúvidas? Entre em contato conosco."
@@ -1725,7 +1725,7 @@ pt-BR:
         disabled_text: "Os tokens de API não estão habilitados pelo administrador. Entre em contato com o administrador para utilizar este recurso."
       ical:
         title: "iCalendar"
-        text_hint: 'Tokens de iCalendar permitem que os usuários <a href="%{path}" target="_blank">assinem calendários do OpenProject</a> e vejam informações atualizadas dos pacotes de trabalho de clientes externos.'
+        text_hint: 'Tokens de iCalendar permitem que os usuários <a href="%{path}" target="_self">assinem calendários do OpenProject</a> e vejam informações atualizadas dos pacotes de trabalho de clientes externos.'
         disabled_text: "As assinaturas do iCalendar não estão habilitadas pelo administrador. Entre em contato com o administrador para utilizar este recurso."
         empty_text_hint: "Para adicionar um token de iCalendário, assine um calendário novo ou existente no módulo Calendário de um projeto. Você precisa possuir as permissões necessárias."
       oauth:
@@ -2592,7 +2592,7 @@ pt-BR:
   notice_successful_update: "Atualizado com sucesso."
   notice_successful_update_custom_fields_added_to_project: |
     Atualização bem-sucedida. Os campos personalizados dos tipos ativados são ativados automaticamente
-    no formulário do pacote de trabalho. <a href="%{url}" target="_blank">Ver mais</a>.
+    no formulário do pacote de trabalho. <a href="%{url}" target="_self">Ver mais</a>.
   notice_successful_update_custom_fields_added_to_type: |
     Atualização bem-sucedida. Os campos personalizados ativos são ativados automaticamente para os projetos associados deste tipo
   notice_to_many_principals_to_display: "Existem muitos resultados. Reduza a busca, digitando o nome do novo membro (ou grupo)."
@@ -2885,7 +2885,7 @@ pt-BR:
   setting_apiv3_cors_enabled: "Habilitar CORS"
   setting_apiv3_cors_origins: "Cross-Origin Resource Sharing (CORS) permitidos pela API V3"
   setting_apiv3_cors_origins_text_html: >
-    Se o CORS estiver habilitado, essas são as origens que têm permissão para acessar a API OpenProject. <br/>Por favor, verifique a <a href="%{origin_link}" target="_blank">documentação na header da Origin </a> sobre como especificar os valores esperados.
+    Se o CORS estiver habilitado, essas são as origens que têm permissão para acessar a API OpenProject. <br/>Por favor, verifique a <a href="%{origin_link}" target="_self">documentação na header da Origin </a> sobre como especificar os valores esperados.
   setting_apiv3_write_readonly_attributes: "Acesso de gravação a atributos somente leitura"
   setting_apiv3_write_readonly_attributes_instructions_html: >
     Se ativada, a API permitirá que os administradores escrevam atributos estáticos somente leitura durante a criação, como os campos createdAt e autor. <br/> <strong>Aviso:</strong> Esta configuração tem um caso de uso para, por exemplo, importar dados, mas permite que os administradores personifiquem a criação de itens como outros usuários. No entanto, todas as solicitações de criação estão sendo registradas com o verdadeiro autor. </br> Para obter mais informações sobre atributos e recursos compatíveis, consulte o site %{api_documentation_link}.
@@ -2895,7 +2895,7 @@ pt-BR:
   setting_apiv3_docs: "Documentação"
   setting_apiv3_docs_enabled: "Habilitar página de documentos"
   setting_apiv3_docs_enabled_instructions_html: >
-    Se a página de documentos estiver habilitada, você pode obter uma visão interativa da documentação APIv3 em <a href="%{link}" target="_blank">%{link}</a>.
+    Se a página de documentos estiver habilitada, você pode obter uma visão interativa da documentação APIv3 em <a href="%{link}" target="_self">%{link}</a>.
   setting_attachment_whitelist: "Lista de permissões de envio de anexos "
   setting_email_delivery_method: "Método de entrega de e-mail"
   setting_emails_salutation: "Dirigir-se ao usuário nos e-mails com"
@@ -3051,7 +3051,7 @@ pt-BR:
       first_date_of_week_and_year_set: >
         Se a opção "%{day_of_week_setting_name}" ou "%{first_week_setting_name}" for definida, a outra também deve ser definida, para evitar inconsistências no front-end.
       first_week_of_year_text_html: >
-        Selecione a data de janeiro que está contida na primeira semana do ano. Este valor, juntamente com o primeiro dia da semana, determina o número total de semanas num ano. Para obter mais informações, consulte nossa <a href="%{link}" target="_blank">documentação</a> sobre este tema.
+        Selecione a data de janeiro que está contida na primeira semana do ano. Este valor, juntamente com o primeiro dia da semana, determina o número total de semanas num ano. Para obter mais informações, consulte nossa <a href="%{link}" target="_self">documentação</a> sobre este tema.
     experimental:
       save_confirmation: Cuidado! Risco de perda de dados! Ative apenas recursos experimentais se não se importar em quebrar sua instalação do OpenProject e perder todos os seus dados.
       warning_toast: Sinalizadores de recursos são configurações que ativam recursos que ainda estão em desenvolvimento. Eles só serão utilizados para fins de teste e nunca serão ativados nas instalações do OpenProject que possuem dados importantes. Estes recursos muito provavelmente irão corromper seus dados. Use-os por sua conta e risco.
@@ -3065,7 +3065,7 @@ pt-BR:
         type: "Toda linha por Tipo"
         priority: "Toda linha por Prioridade"
     icalendar:
-      enable_subscriptions_text_html: Permite aos usuários, com as permissões necessárias, assinar calendários do OpenProject e acessar as informações do pacote de trabalho através de um cliente de calendário externo. <strong>Nota:</strong> Leia sobre <a href="%{link}" target="_blank">assinaturas iCalendar</a> para entender os potenciais riscos de segurança antes de habilitá-las.
+      enable_subscriptions_text_html: Permite aos usuários, com as permissões necessárias, assinar calendários do OpenProject e acessar as informações do pacote de trabalho através de um cliente de calendário externo. <strong>Nota:</strong> Leia sobre <a href="%{link}" target="_self">assinaturas iCalendar</a> para entender os potenciais riscos de segurança antes de habilitá-las.
     language_name_being_default: "%{language_name} (padrão)"
     notifications:
       events_explanation: "Governa para qual evento um e-mail é enviado. Como as notificações de pacotes de trabalhos podem ser configuradas especificamente para todos os usuários, eles são excluídos desta lista."
